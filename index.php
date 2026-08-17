@@ -1,28 +1,61 @@
 <?php 
 include_once("./includes/header.php")
 ?>
-
+<style>
+        .car {
+            position: relative;
+            width: 80%;
+            max-width: 600px;
+            overflow: hidden;
+        }
+        .img-wrap {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .img-wrap img {
+            width: 100%;
+            height: auto;
+        }
+        .btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+</style>
     <main>
-        <!--Carrossel-->
-        <div class="relative w-full max-w-150 car"> <!--nao mexe krai-->
-            <div class="flex transition-transform ease-in-out img-wrap">
-                <img src="./src/img/b4c80c0e47ef12d28adf4dc73f0e9d48bc9fb787.jpg" 
-                alt="1" class="w-full h-auto">
-                <img src="./src/img/fundoQuizz.png" 
-                alt="2" class="w-full h-auto">
-                <img src="src/img/wp12452248-portugal-4k-wallpapers.jpg" 
-                alt="3" class="w-full h-auto">
+        <div class="flex justify-center w-full">
+            <!--Carrossel-->
+            <div class="car relative  overflow-hidden flex">
+                <div class="img-wrap flex transition-transform">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241228102812942963/0_ilw552fVUGbwIzbE.jpg"
+                    alt="1" class="w-[100%] h-auto">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241128161121752603/what-is-javascript.webp"
+                    alt="2" class="w-[100%] h-auto">
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240829155421/Amazing-new-Javascript-features-in-ES15.webp"
+                    alt="3" class="w-[100%] h-auto">
+                </div>
+                <button class="btn prev cursor-pointer bottom-1 absolute">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>
+                </button>
+                <button class="btn next cursor-pointer right-[10px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+                </button>
             </div>
-            <button class="prev absolute top-1/2 translate-y-1/2 border-0 p-2.5 text-[16px] left-2.5">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-                </svg>
-            </button>
-            <button class="next absolute top-1/2 translate-y-1/2 border-0 p-2.5 text-[16px] right-2.5">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                </svg>
-            </button>
         </div>
     </main>
 <?php 
