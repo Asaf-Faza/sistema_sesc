@@ -3,13 +3,9 @@ include_once("./includes/header.php")
 ?>
 <style>
         .car {
-            position: relative;
-            width: 80%;
-            max-width: 600px;
             overflow: hidden;
         }
         .img-wrap {
-            display: flex;
             transition: transform 0.5s ease;
         }
         .img-wrap img {
@@ -40,14 +36,14 @@ include_once("./includes/header.php")
     <main >
         <div class="flex justify-center w-full">
             <!--Carrossel-->
-            <div class="car relative  overflow-hidden flex">
+            <div class="car relative overflow-hidden flex">
                 <div class="img-wrap flex transition-transform">
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241228102812942963/0_ilw552fVUGbwIzbE.jpg"
-                    alt="1" class="w-[100%] h-auto">
+                    <img src="./src/img/b4c80c0e47ef12d28adf4dc73f0e9d48bc9fb787.jpg"
+                    alt="1" class="w-screen h-auto">
                     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241128161121752603/what-is-javascript.webp"
-                    alt="2" class="w-[100%] h-auto">
+                    alt="2" class="w-screen h-auto">
                     <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240829155421/Amazing-new-Javascript-features-in-ES15.webp"
-                    alt="3" class="w-[100%] h-auto">
+                    alt="3" class="w-screen h-auto">
                 </div>
                 <button class="btn prev cursor-pointer bottom-1 absolute">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>
