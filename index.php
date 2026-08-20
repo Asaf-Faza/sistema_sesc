@@ -56,7 +56,7 @@ include_once("./includes/header.php")
         <div class="w-full h-60 text-white mb-40">
             <div class="mb-3 flex justify-around">
             <div class=" bg-slate-800 rounded-lg w-50 h-60">
-<div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
+<div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsumaaaa</div>
 <p class="p-2">zaza</p>
             </div>
             <div class=" bg-slate-800 rounded-lg w-50 h-60">
