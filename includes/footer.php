@@ -14,7 +14,7 @@
  
             <div>
                 <h2 class="mb-1 text-sm font-semibold uppercase tracking-wide text-white">Endereço</h2>
-                <p class="text-xs">Rua Pinto</p>
+                <p class="text-xs">Rua Doutor José Pinto Rebello Júnior</p>
                 <p class="text-xs">Matinhos - PR</p>
             </div>
         </div>
