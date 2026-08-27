@@ -63,7 +63,7 @@ include_once("./includes/header.php")
                 </div>
                 <div class=" bg-slate-800 rounded-lg w-50 h-60">
                     <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-                    <p class="p-2">ola meu nome é michel jeckisson e eu como <span class="text-red-600 font-extrabold">criansinhas</span></p>
+                    <p class="p-2">lorem ipsum</p>
                 </div>
                 <div class="bg-slate-800 rounded-lg w-50 h-60">
                     <div class=" rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>

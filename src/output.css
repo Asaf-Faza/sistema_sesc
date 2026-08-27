@@ -379,10 +379,6 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .font-extrabold {
-    --tw-font-weight: var(--font-weight-extrabold);
-    font-weight: var(--font-weight-extrabold);
-  }
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
@@ -393,9 +389,6 @@
   }
   .text-blue-50 {
     color: var(--color-blue-50);
-  }
-  .text-red-600 {
-    color: var(--color-red-600);
   }
   .text-slate-300 {
     color: var(--color-slate-300);
