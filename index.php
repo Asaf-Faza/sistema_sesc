@@ -36,14 +36,16 @@ include_once("./includes/header.php")
     <main >
         <div class="flex justify-center w-full">
             <!--Carrossel-->
-            <div class="car relative overflow-hidden flex max-w-[1630px]">
+            <div class="car relative overflow-hidden flex max-w-[1630px] mb-5">
                 <div class="img-wrap flex transition-transform">
                     <img src="./src/img/banner.png"
-                    alt="1" class="h-auto">
+                    alt="1" class="h-auto w-screen">
                     <img src="./src/img/banner.png"
-                    alt="2" class="h-auto">
+                    alt="2" class="h-auto w-screen">
                     <img src="./src/img/banner.png"
-                    alt="3" class="h-auto">
+                    alt="3" class="h-auto w-screen">
+                    <img src="./src/img/banner.png"
+                    alt="3" class="h-auto w-screen">
                 </div>
                 <button class="btn prev cursor-pointer bottom-1 absolute">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>
