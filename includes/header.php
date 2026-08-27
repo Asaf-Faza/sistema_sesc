@@ -17,4 +17,8 @@
             <div class=" text-xl font-bold flex text-center mt-2"><a href="">depoimentos</a> <a href="" class="ml-8 mr-8">cursos</a><a href="" class="mr-8">eventos</a><a href="" class="mr-8">sobre nós</a><a href="">contatos</a></div>
             <div class="mt-1"><a href=""  class="font-bold bg-amber-400 border-3 border-amber-600 text-blue-50 text-center p-2 rounded-lg text-3xl">Ingressar</a></div>
         </nav>
+<<<<<<< HEAD
     </header>
+=======
+    </header>
+>>>>>>> 100ea8ac44fd5389fe71203e2be5a60888b45445

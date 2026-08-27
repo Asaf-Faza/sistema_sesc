@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once("./includes/header.php")
 ?>
 <style>
@@ -36,48 +36,46 @@ include_once("./includes/header.php")
     <main >
         <div class="flex justify-center w-full">
             <!--Carrossel-->
-            <div class="car relative overflow-hidden flex">
+            <div class="car relative overflow-hidden flex max-w-[1630px] mb-5">
                 <div class="img-wrap flex transition-transform">
-                    <img src="./src/img/b4c80c0e47ef12d28adf4dc73f0e9d48bc9fb787.jpg"
-                    alt="1" class="w-screen h-auto">
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241128161121752603/what-is-javascript.webp"
-                    alt="2" class="w-screen h-auto">
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240829155421/Amazing-new-Javascript-features-in-ES15.webp"
-                    alt="3" class="w-screen h-auto">
+                    <img src="./src/img/banner.png"
+                    alt="1" class="h-auto w-screen">
+                    <img src="./src/img/banner.png"
+                    alt="2" class="h-auto w-screen">
+                    <img src="./src/img/banner.png"
+                    alt="3" class="h-auto w-screen">
+                    <img src="./src/img/banner.png"
+                    alt="3" class="h-auto w-screen">
                 </div>
                 <button class="btn prev cursor-pointer bottom-1 absolute">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>
                 </button>
-                <button class="btn next cursor-pointer right-[10px]">
+                <button class="btn next cursor-pointer bottom-1 absolute">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
                 </button>
             </div>
         </div>
-        <div class="w-full h-60 text-white mb-40">
+        <div class="w-full h-60 text-white mb-40 mt-7">
             <div class="mb-3 flex justify-around">
-            <div class=" bg-slate-800 rounded-lg w-50 h-60">
-<div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsumaaaa</div>
-<p class="p-2">zaza</p>
-            </div>
-            <div class=" bg-slate-800 rounded-lg w-50 h-60">
-<div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-<p class="p-2">zaza</p>
-            </div>
-            <div class="bg-slate-800 rounded-lg w-50 h-60">
-<div class=" rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-<p class="p-2">zaza</p>
-            </div>
-            <div class="bg-slate-800 rounded-lg w-50 h-60">
-                <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-                <p class="p-2">zaza</p>
-
-</div>
-            </div>
-            <hr class=" border-2 border-amber-500 ml-20 mr-20 mt-10">
-          
+                <div class=" bg-slate-800 rounded-lg w-50 h-60">
+                    <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsumaaaa</div>
+                    <p class="p-2">zaza</p>
+                </div>
+                <div class=" bg-slate-800 rounded-lg w-50 h-60">
+                    <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
+                    <p class="p-2">ola meu nome é michel jeckisson e eu como <span class="text-red-600 font-extrabold">criansinhas</span></p>
+                </div>
+                <div class="bg-slate-800 rounded-lg w-50 h-60">
+                    <div class=" rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
+                    <p class="p-2">zaza</p>
+                </div>
+                <div class="bg-slate-800 rounded-lg w-50 h-60">
+                    <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
+                    <p class="p-2">zaza</p>
+                </div>
         </div>
-       
+        <hr class=" border-2 border-amber-500 ml-20 mr-20 mt-10"/>
     </main>
-<?php 
+<?php
 include_once("./includes/footer.php")
 ?>
