@@ -72,12 +72,14 @@ include_once("./includes/data/banner.php")
             </div>
         </section>
         <section id="about">
-            <div class="flex justify-around">
-                <div class="text">
-                    <h3>Sobre Nós</h3>
+            <div class="flex">
+                <div class="text flex w-1/2">
+                    <h3 class="font-extrabold font-mono text-4xl">Sobre Nós</h3>
+                    <p></p>
                 </div>
-                <div class="image">
-                    
+                <div class="flex w-1/2 h-auto p-5 m-5 relative">
+                    <img src="./src/img/Porto_ melhor época, hotéis, restaurantes, passeios e mais _ Viagem e Turismo.png" alt="" class="z-10" />
+                    <div class="absolute bottom-0 right-0 bg-amber-500 w-11/12 h-11/12">aaa</div>
                 </div>
             </div>
         </section>
