@@ -19,11 +19,11 @@
                 </div>
             </div>
             <div class=" text-xl font-semibold flex text-center no-underline">
-                <a href="" class="no-underline">depoimentos</a>
-                <a href="" class="mx-30 no-underline">cursos</a>
-                <a href="" class="no-underline">eventos</a>
-                <a href="" class="mx-30 no-underline">sobre nós</a>
-                <a href="" class="no-underline">contatos</a>
+                <a href="#depoimentos" class="no-underline">depoimentos</a>
+                <a href="#depoimentos" class="mx-30 no-underline">cursos</a>
+                <a href="#depoimentos" class="no-underline">eventos</a>
+                <a href="#about" class="mx-30 no-underline">sobre nós</a>
+                <a href="#depoimentos" class="no-underline">contatos</a>
             </div>
             <div class="flex text-center items-center">
                 <a href=""  class="flex items-centerfont-semibold bg-amber-400 border-3 border-amber-600 text-blue-50 text-center p-2 rounded-lg text-3xl">Ingressar</a>

@@ -71,8 +71,15 @@ include_once("./includes/data/banner.php")
                 </div>
             </div>
         </section>
-        <section>
-
+        <section id="about">
+            <div class="flex justify-around">
+                <div class="text">
+                    <h3>Sobre Nós</h3>
+                </div>
+                <div class="image">
+                    
+                </div>
+            </div>
         </section>
     </main>
 <?php
