@@ -6,15 +6,15 @@ include_once("./includes/header.php")
         <section id="home">
             <div class="flex justify-center w-full">
                 <!--Carrossel-->
-                <div class="car relative overflow-hidden flex max-w-[1630px] mb-5">
+                <div class="car relative overflow-hidden flex max-h-125 mb-5">
                     <div class="img-wrap flex transition-transform">
-                        <img src="./src/img/banner.png"
+                        <img src="./src/img/trazsolpralavadeiradoareaial.png"
                         alt="1" class="h-auto w-screen">
-                        <img src="./src/img/banner.png"
+                        <img src="./src/img/trazsolpralavadeiradoareaial.png"
                         alt="2" class="h-auto w-screen">
-                        <img src="./src/img/banner.png"
+                        <img src="./src/img/trazsolpralavadeiradoareaial.png"
                         alt="3" class="h-auto w-screen">
-                        <img src="./src/img/banner.png"
+                        <img src="./src/img/trazsolpralavadeiradoareaial.png"
                         alt="3" class="h-auto w-screen">
                     </div>
                     <button class="btn prev cursor-pointer absolute hover:bg-black left-2.5 bg-[rgba(122,122,122,0.5)] top-[50%] transform -translate-y-1/2 text-white p-2.5 text-[16px] h-30">
