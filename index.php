@@ -1,38 +1,6 @@
 <?php
 include_once("./includes/header.php")
 ?>
-<style>
-        .car {
-            overflow: hidden;
-        }
-        .img-wrap {
-            transition: transform 0.5s ease;
-        }
-        .img-wrap img {
-            width: 100%;
-            height: auto;
-        }
-        .btn {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            background: rgba(0, 0, 0, 0.5);
-            color: #fff;
-            border: none;
-            padding: 10px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .btn:hover {
-            background: rgba(0, 0, 0, 0.8);
-        }
-        .prev {
-            left: 10px;
-        }
-        .next {
-            right: 10px;
-        }
-</style>
     <main >
         <div class="flex justify-center w-full">
             <!--Carrossel-->
