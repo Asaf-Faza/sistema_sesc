@@ -53,30 +53,26 @@ include_once("./includes/header.php")
                 </button>
             </div>
         </div>
-        <div class="w-full h-60 text-white mb-40">
+        <div class="w-full h-60 text-white mb-40 mt-7">
             <div class="mb-3 flex justify-around">
-            <div class=" bg-slate-800 rounded-lg w-50 h-60">
-<div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsumaaaa</div>
-<p class="p-2">zaza</p>
-            </div>
-            <div class=" bg-slate-800 rounded-lg w-50 h-60">
-<div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-<p class="p-2">zaza</p>
-            </div>
-            <div class="bg-slate-800 rounded-lg w-50 h-60">
-<div class=" rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-<p class="p-2">zaza</p>
-            </div>
-            <div class="bg-slate-800 rounded-lg w-50 h-60">
-                <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-                <p class="p-2">zaza</p>
- 
-</div>
-            </div>
-            <hr class=" border-2 border-amber-500 ml-20 mr-20 mt-10">
-         
+                <div class=" bg-slate-800 rounded-lg w-50 h-60">
+                    <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsumaaaa</div>
+                    <p class="p-2">zaza</p>
+                </div>
+                <div class=" bg-slate-800 rounded-lg w-50 h-60">
+                    <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
+                    <p class="p-2">ola meu nome é michel jeckisson e eu como <span class="text-red-600 font-extrabold">criansinhas</span></p>
+                </div>
+                <div class="bg-slate-800 rounded-lg w-50 h-60">
+                    <div class=" rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
+                    <p class="p-2">zaza</p>
+                </div>
+                <div class="bg-slate-800 rounded-lg w-50 h-60">
+                    <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
+                    <p class="p-2">zaza</p>
+                </div>
         </div>
-       
+        <hr class=" border-2 border-amber-500 ml-20 mr-20 mt-10"/>
     </main>
 <?php
 include_once("./includes/footer.php")
