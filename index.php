@@ -7,7 +7,7 @@ include_once("./includes/data/data.php")
         <section id="home">
             <div class="flex justify-center w-full">
                 <!--Carrossel-->
-                <div class="car relative overflow-hidden flex max-h-125 mb-5">
+                <div class="car relative overflow-hidden flex mb-5 shadow-lg/25">
                     <div class="img-wrap flex transition-transform">
                         <?php foreach ($banner as $imagemBanner){?>
                             <img src="<?= $imagemBanner["imagem"] ?>"
@@ -27,7 +27,7 @@ include_once("./includes/data/data.php")
             <div class="w-full h-60 text-white mt-7">
                 <div class="mb-3 flex justify-around">
                     <?php foreach ($depoimentos as $depoimento){?>
-                        <div class=" bg-slate-800 rounded-lg max-w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
+                        <div class="enter bg-slate-800 rounded-lg max-w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
                             <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
                                 <img src="<?= $depoimento["foto"] ?>" alt="foto de perfil de <?= $depoimento["nome"] ?>" class="w-10 h-10 rounded-full">
                                 <p class="self-center font-bold text-amber-100"><?= $depoimento["nome"] ?></p>
@@ -82,7 +82,7 @@ include_once("./includes/data/data.php")
         <section id="about">
             <div class="flex">
                 <div class="text flex-col w-1/2  px-10 py-20">
-                    <h3 class="font-extrabold font-mono text-4xl text-shadow-md/25">Sobre Nós</h3>
+                    <h3 class="font-extrabold font-mono text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)]">Sobre Nós</h3>
                     <div class="flex h-full items-center">
                         <p class="font-semibold">"Quebrei meu dreamcast de bobeira, meu nome é Leonan tenho 13 anos,parece
    brincadeira mas é a pura verdade, tudo começou quando estava jogando
@@ -106,10 +106,13 @@ include_once("./includes/data/data.php")
                     </div>
                 </div>
                 <div class="flex w-1/2 h-auto p-5 m-5 relative">
-                    <img src="./src/img/Porto_ melhor época, hotéis, restaurantes, passeios e mais _ Viagem e Turismo.png" alt="" class="z-10 rounded-md <!-- drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)]" />
+                    <img src="./src/img/Porto_ melhor época, hotéis, restaurantes, passeios e mais _ Viagem e Turismo.png" alt="" class="z-10 rounded-md drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)] enter" />
                     <div class="absolute bottom-0 right-0 bg-amber-500 w-11/12 h-11/12"></div>
                 </div>
             </div>
+        </section>
+        <section id="valores" class="p-10"  >
+            <h3 class="font-bold text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)]">Nossos valores</h3>
         </section>
     </main>
 <?php

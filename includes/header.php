@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS do Site-->
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/custom.css">
     <title>Sistema SESC SENAC</title>
 </head>
 <body>

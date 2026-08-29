@@ -1,0 +1,19 @@
+/* 1. Define the final, active state of the element */
+.enter {
+  opacity: 1;
+  transform: translateY(0);
+  
+  /* Enable smooth transitions. 'allow-discrete' handles display: none */
+  transition: 
+    opacity 0.5s ease, 
+    transform 0.5s ease, 
+    display 0.5s ease allow-discrete;
+}
+
+/* 2. Define the starting point before the element appears */
+@starting-style {
+  .enter {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
