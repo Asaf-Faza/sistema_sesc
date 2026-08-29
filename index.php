@@ -1,6 +1,6 @@
 <?php
 include_once("./includes/header.php");
-include_once("./includes/data/banner.php")
+include_once("./includes/data/data.php")
 ?>
 
     <main >
@@ -9,12 +9,10 @@ include_once("./includes/data/banner.php")
                 <!--Carrossel-->
                 <div class="car relative overflow-hidden flex max-h-125 mb-5">
                     <div class="img-wrap flex transition-transform">
-                        <!-- <?php foreach ($banner as $imagemBanner){?>
+                        <?php foreach ($banner as $imagemBanner){?>
                             <img src="<?= $imagemBanner["imagem"] ?>"
                             alt="<?= $imagemBanner["nome"] ?>" class="h-auto w-screen">
-                        <?php }?> -->
-                        <img src="./src/img/trazsolpralavadeiradoareaial.png"
-                            alt="" class="h-auto w-screen">
+                        <?php }?>
                     </div>
                     <button class="btn prev cursor-pointer absolute hover:bg-black left-2.5 bg-[rgba(122,122,122,0.5)] top-[50%] transform -translate-y-1/2 text-white p-2.5 text-[16px] h-30">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" /></svg>
@@ -28,7 +26,16 @@ include_once("./includes/data/banner.php")
         <section id="depoimentos">
             <div class="w-full h-60 text-white mt-7">
                 <div class="mb-3 flex justify-around">
-                    <div class=" bg-slate-800 rounded-lg w-50 h-60">
+                    <?php foreach ($depoimentos as $depoimento){?>
+                        <div class=" bg-slate-800 rounded-lg max-w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
+                            <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
+                                <img src="<?= $depoimento["foto"] ?>" alt="foto de perfil de <?= $depoimento["nome"] ?>" class="w-10 h-10 rounded-full">
+                                <p class="self-center font-bold text-amber-100"><?= $depoimento["nome"] ?></p>
+                            </div>
+                            <p class="p-5 font-semibold font text-justify"><?= $depoimento["comentario"] ?></p>
+                        </div>
+                    <?php }?>
+                    <!-- <div class=" bg-slate-800 rounded-lg w-50 h-60">
                         <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsumaaaa</div>
                         <p class="p-2">zaza</p>
                     </div>
@@ -43,7 +50,8 @@ include_once("./includes/data/banner.php")
                     <div class="bg-slate-800 rounded-lg w-50 h-60">
                         <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
                         <p class="p-2">zaza</p>
-                    </div>
+                    </div> -->
+                </div>
             </div>
         </section>
         <hr class=" border-2 border-amber-500 mx-20 my-10"/>
@@ -73,13 +81,33 @@ include_once("./includes/data/banner.php")
         </section>
         <section id="about">
             <div class="flex">
-                <div class="text flex w-1/2">
-                    <h3 class="font-extrabold font-mono text-4xl">Sobre Nós</h3>
-                    <p></p>
+                <div class="text flex-col w-1/2  px-10 py-20">
+                    <h3 class="font-extrabold font-mono text-4xl text-shadow-md/25">Sobre Nós</h3>
+                    <div class="flex h-full items-center">
+                        <p class="font-semibold">"Quebrei meu dreamcast de bobeira, meu nome é Leonan tenho 13 anos,parece
+   brincadeira mas é a pura verdade, tudo começou quando estava jogando
+   Craxy Taxi pirata passou um tempo fui trocar o cd então desliguei o
+   dreamcast tirei o crazy taxi e deixei a tampa aberta(meu erro) para
+   colocar o cd de boot, mas aí o pessoal de casa resolveu sair então fiquei
+   sozinho em casa, pintou aquela vontade de tocar sonfona, o meu dreamcast
+   fica na mesma mesa do computador, então liguei o micro acessei uma página
+   (que vi neste forum...) e to lá, em frente ao micro vcs sabem né...então
+   chegou aquela pressão não pude segurar mas como eu tava na frente do
+   computador para não sujar o monitor e o teclado meu reflexo foi de virar
+   para a esquerda justamente onde tava meu dreamcast com a tampa
+   aberta(**** falta de sorte)...isso mesmo galera ...EJACULEI NO MEU
+   DREAMCAST... riam deste cara sem sorte,não sei se rio ou choro, a lente
+   sujou toda, limpei o quanto pude mas em cima da lente a gosma secou Agora
+   o que é que eu faço? fiz de tudo para ganhar este dreamcast não tem um
+   mês direito e já estragou minha mãe vai me matar quando descobrir que ela
+   pagou 750 reias e eu já quebrei, tá na garantia ainda mas o que eu falo
+   pro cara da loja? Como faço para limpar a lente agora? me ajudem por
+   favor ! Nunca mais me masturbo na minha vida!"</p>
+                    </div>
                 </div>
                 <div class="flex w-1/2 h-auto p-5 m-5 relative">
-                    <img src="./src/img/Porto_ melhor época, hotéis, restaurantes, passeios e mais _ Viagem e Turismo.png" alt="" class="z-10" />
-                    <div class="absolute bottom-0 right-0 bg-amber-500 w-11/12 h-11/12">aaa</div>
+                    <img src="./src/img/Porto_ melhor época, hotéis, restaurantes, passeios e mais _ Viagem e Turismo.png" alt="" class="z-10 rounded-md <!-- drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)]" />
+                    <div class="absolute bottom-0 right-0 bg-amber-500 w-11/12 h-11/12"></div>
                 </div>
             </div>
         </section>
@@ -87,3 +115,7 @@ include_once("./includes/data/banner.php")
 <?php
 include_once("./includes/footer.php")
 ?>
+
+ <!-- drop-shadow-[15px_15px_7px_rgba(10,190,240,.3)] 
+  SOMBRA MANEIRONA PICUDA BOLAS 
+ -->
