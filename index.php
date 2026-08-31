@@ -25,7 +25,7 @@ include_once("./includes/data/data.php")
         </section>
         <section id="depoimentos">
             <div class="w-full h-60 text-white mt-7">
-                <div class="mb-3 flex justify-around">
+                <div class="mb-3 flex gap-5">
                     <?php foreach ($depoimentos as $depoimento){?>
                         <div class="enter bg-slate-800 rounded-lg max-w-1/5  shadow-xl/55 shadow-slate-800">
                             <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
@@ -128,7 +128,7 @@ Nikog Se Ne Boje"</p>
                     </div>
                 </div>
                 <div class="flex w-1/2 h-auto p-5 m-5 relative">
-                    <img src="./src/img/Porto_ melhor época, hotéis, restaurantes, passeios e mais _ Viagem e Turismo.png" alt="" class="z-10 rounded-md drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)] enter" />
+                    <img src="./src/img/sesc-caioba-unidade-de-servico-01-1024x683.jpg" alt="" class="z-10 rounded-md drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)]" />
                     <div class="absolute bottom-0 right-0 bg-amber-500 w-11/12 h-11/12"></div>
                 </div>
             </div>
