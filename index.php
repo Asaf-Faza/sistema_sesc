@@ -133,7 +133,7 @@ Nikog Se Ne Boje"</p>
                 </div>
             </div>
         </section>
-        <section id="valores" class="p-10 bg-blue-600">
+        <section id="valores" class="p-10 bg-amber-600 mt-4 text-white">
             <h3 class="font-bold text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)] text-center">Nossos valores</h3>
             <div class="flex-col">
                 <div class="flex">
