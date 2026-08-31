@@ -138,7 +138,7 @@ Nikog Se Ne Boje"</p>
             <div class="flex-col">
                 <div class="flex">
                     <img src="./src/img/sesc-caioba-unidade-de-servico-01-1024x683.jpg" alt="" class="w-1/2 h-auto p-10">
-                    <p class="text-justify p-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure vero nemo corrupti porro incidunt exercitationem magnam distinctio accusamus cum laudantium a velit quas eaque aspernatur corporis doloribus, voluptatibus minus!</p>
+                    <p class="text-justify p-10 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure vero nemo corrupti porro incidunt exercitationem magnam distinctio accusamus cum laudantium a velit quas eaque aspernatur corporis doloribus, voluptatibus minus!</p>
                 </div>
             </div>
         </section>
