@@ -25,7 +25,7 @@ include_once("./includes/data/data.php")
         </section>
         <section id="depoimentos">
             <div class="w-full h-60 text-white mt-7">
-                <div class="mb-3 flex gap-5">
+                <div class="mb-3 flex gap-5 justify-around">
                     <?php foreach ($depoimentos as $depoimento){?>
                         <div class="enter bg-slate-800 rounded-lg max-w-1/5  shadow-xl/55 shadow-slate-800">
                             <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
