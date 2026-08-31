@@ -27,7 +27,7 @@ include_once("./includes/data/data.php")
             <div class="w-full h-60 text-white mt-7">
                 <div class="mb-3 flex gap-5">
                     <?php foreach ($depoimentos as $depoimento){?>
-                        <div class="enter bg-slate-800 rounded-lg max-w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
+                        <div class="enter bg-slate-800 rounded-lg max-w-1/5  shadow-xl/55 shadow-slate-800">
                             <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
                                 <img src="<?= $depoimento["foto"] ?>" alt="foto de perfil de <?= $depoimento["nome"] ?>" class="w-10 h-10 rounded-full">
                                 <p class="self-center font-bold text-white"><?= $depoimento["nome"] ?></p>
@@ -133,7 +133,7 @@ Nikog Se Ne Boje"</p>
                 </div>
             </div>
         </section>
-        <section id="valores" class="p-10"  >
+        <section id="valores" class="p-10 bg-amber-600 mt-4 text-white">
             <h3 class="font-bold text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)] text-center">Nossos valores</h3>
             <div class="flex-col">
                 <div class="flex">
@@ -148,5 +148,5 @@ include_once("./includes/footer.php")
 ?>
 
  <!-- drop-shadow-[15px_15px_7px_rgba(10,190,240,.3)] 
-  SOMBRA MANEIRONA PICUDA BOLAS 
+  SOMBRA MANEIRONA 
  -->

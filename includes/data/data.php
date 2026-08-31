@@ -28,7 +28,7 @@ $depoimentos = [
         "id" => 1,
         "nome" => "Mair Bocuda",
         "foto" => "src/img/bocuda.png",
-        "comentario" => "Não recomendo , talvez se fosse uma instituição mais organizada e séria até gostaria, mas no estado em que se encontra está uma merda",
+        "comentario" => "Se botasse uma tenda viraria circo de tanto palhaço que tem dentro",
     ],
 ]
 ?>
