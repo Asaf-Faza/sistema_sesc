@@ -141,7 +141,10 @@ Nikog Se Ne Boje"</p>
                     <p class="text-justify p-10 bg-blue-600 rounded-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure vero nemo corrupti porro incidunt exercitationem magnam distinctio accusamus cum laudantium a velit quas eaque aspernatur corporis doloribus, voluptatibus minus!</p>
                 </div>
             </div>
-        </section>
+</section>
+<section>
+    
+</section>
     </main>
 <?php
 include_once("./includes/footer.php")
