@@ -25,9 +25,9 @@ include_once("./includes/data/data.php")
         </section>
         <section id="depoimentos">
             <div class="w-full h-60 text-white mt-7">
-                <div class="mb-3 flex justify-around">
+                <div class="mb-3 flex gap-5">
                     <?php foreach ($depoimentos as $depoimento){?>
-                        <div class="enter bg-slate-800 rounded-lg w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
+                        <div class="enter bg-slate-800 rounded-lg max-w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
                             <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
                                 <img src="<?= $depoimento["foto"] ?>" alt="foto de perfil de <?= $depoimento["nome"] ?>" class="w-10 h-10 rounded-full">
                                 <p class="self-center font-bold text-white"><?= $depoimento["nome"] ?></p>
@@ -128,7 +128,7 @@ Nikog Se Ne Boje"</p>
                     </div>
                 </div>
                 <div class="flex w-1/2 h-auto p-5 m-5 relative">
-                    <img src="./src/img/Porto_ melhor época, hotéis, restaurantes, passeios e mais _ Viagem e Turismo.png" alt="" class="z-10 rounded-md drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)] enter" />
+                    <img src="./src/img/sesc-caioba-unidade-de-servico-01-1024x683.jpg" alt="" class="z-10 rounded-md drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)]" />
                     <div class="absolute bottom-0 right-0 bg-amber-500 w-11/12 h-11/12"></div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ Nikog Se Ne Boje"</p>
             <h3 class="font-bold text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)] text-center">Nossos valores</h3>
             <div class="flex-col">
                 <div class="flex">
-                    <img src="./src/img/Curiosidades sobre nossa querida Portugal.png" alt="" class="w-1/2 h-auto p-10">
+                    <img src="./src/img/sesc-caioba-unidade-de-servico-01-1024x683.jpg" alt="" class="w-1/2 h-auto p-10">
                     <p class="text-justify p-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure vero nemo corrupti porro incidunt exercitationem magnam distinctio accusamus cum laudantium a velit quas eaque aspernatur corporis doloribus, voluptatibus minus!</p>
                 </div>
             </div>
