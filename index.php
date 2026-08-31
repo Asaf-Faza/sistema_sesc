@@ -84,25 +84,47 @@ include_once("./includes/data/data.php")
                 <div class="text flex-col w-1/2  px-10 py-20">
                     <h3 class="font-extrabold font-mono text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)]">Sobre Nós</h3>
                     <div class="flex h-full items-center">
-                        <p class="font-semibold">"Quebrei meu dreamcast de bobeira, meu nome é Leonan tenho 13 anos,parece
-   brincadeira mas é a pura verdade, tudo começou quando estava jogando
-   Craxy Taxi pirata passou um tempo fui trocar o cd então desliguei o
-   dreamcast tirei o crazy taxi e deixei a tampa aberta(meu erro) para
-   colocar o cd de boot, mas aí o pessoal de casa resolveu sair então fiquei
-   sozinho em casa, pintou aquela vontade de tocar sonfona, o meu dreamcast
-   fica na mesma mesa do computador, então liguei o micro acessei uma página
-   (que vi neste forum...) e to lá, em frente ao micro vcs sabem né...então
-   chegou aquela pressão não pude segurar mas como eu tava na frente do
-   computador para não sujar o monitor e o teclado meu reflexo foi de virar
-   para a esquerda justamente onde tava meu dreamcast com a tampa
-   aberta(**** falta de sorte)...isso mesmo galera ...EJACULEI NO MEU
-   DREAMCAST... riam deste cara sem sorte,não sei se rio ou choro, a lente
-   sujou toda, limpei o quanto pude mas em cima da lente a gosma secou Agora
-   o que é que eu faço? fiz de tudo para ganhar este dreamcast não tem um
-   mês direito e já estragou minha mãe vai me matar quando descobrir que ela
-   pagou 750 reias e eu já quebrei, tá na garantia ainda mas o que eu falo
-   pro cara da loja? Como faço para limpar a lente agora? me ajudem por
-   favor ! Nunca mais me masturbo na minha vida!"</p>
+                        <p class="font-semibold">"Od Bihaca do Petrovca sela
+Do Petrovca sela
+Srpska Zemlja Napadnuta Cela
+Napadnuta Cela
+
+Karadzicu Vodi Srbe Svoje
+Vodi Srbe Svoje
+Nek Se Vidi Nikog Se Ne Boje
+Nikog Se Ne Boje
+
+Ustale Hrvatske Ustase
+Hrvatse Ustase
+Ne Dirajte U Ognjiste Nase
+Dirajte Ognjiste Nase
+
+Karadzicu Vodi Srbe Svoje
+Vodi Srbe Svoje
+Nek Se Vidi Nikog Se Ne Boje
+Nikog Se Ne Boje
+
+Iz Krajine Krenuli Su Vuci
+Krenuli Su Vuci
+Cuvajte Se Ustase I Turci
+Ustase I Turci
+
+Karadzicu Vodi Srbe Svoje
+Vodi Srbe Svoje
+Nek Se Vidi Nikog Se Ne Boje
+Nikog Se Ne Boje
+
+U Odbrani Svoga Srpskog Roda
+Svoga Srpskog Roda
+Borimo Se Draga Nam Sloboda
+Draga Nam Sloboda
+
+Karadzicu Vodi Srbe Svoje
+Vodi Srbe Svoje
+Nek Se Vidi Nikog Se Ne Boje
+Nikog Se Ne Boje
+Nek Se Vidi Nikog Se Ne Boje
+Nikog Se Ne Boje"</p>
                     </div>
                 </div>
                 <div class="flex w-1/2 h-auto p-5 m-5 relative">
