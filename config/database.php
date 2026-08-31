@@ -1,7 +1,7 @@
 <?php
 
 $host="localhost";
-$dbName="sistema_lembretes";
+$dbName="landingpage";
 $userName="root";
 $password= "";
 
