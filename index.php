@@ -30,7 +30,7 @@ include_once("./includes/data/data.php")
                         <div class="enter bg-slate-800 rounded-lg max-w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
                             <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
                                 <img src="<?= $depoimento["foto"] ?>" alt="foto de perfil de <?= $depoimento["nome"] ?>" class="w-10 h-10 rounded-full">
-                                <p class="self-center font-bold text-amber-100"><?= $depoimento["nome"] ?></p>
+                                <p class="self-center font-bold text-white"><?= $depoimento["nome"] ?></p>
                             </div>
                             <p class="p-5 font-semibold font text-justify"><?= $depoimento["comentario"] ?></p>
                         </div>
@@ -112,7 +112,7 @@ include_once("./includes/data/data.php")
             </div>
         </section>
         <section id="valores" class="p-10"  >
-            <h3 class="font-bold text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)]">Nossos valores</h3>
+            <h3 class="font-bold text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)] text-center">Nossos valores</h3>
         </section>
     </main>
 <?php
