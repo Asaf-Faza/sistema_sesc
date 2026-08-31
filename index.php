@@ -23,11 +23,11 @@ include_once("./includes/data/data.php")
                 </div>
             </div>
         </section>
-        <section id="depoimentos">
-            <div class="w-full h-60 text-white mt-7">
-                <div class="mb-3 flex gap-5 justify-around">
+        <section id="depoimentos" class="flex">
+            <div class="w-full text-white mt-7 flex">
+                <div class="mb-3 lg:flex gap-5 justify-around">
                     <?php foreach ($depoimentos as $depoimento){?>
-                        <div class="enter bg-slate-800 rounded-lg max-w-1/5  shadow-xl/55 shadow-slate-800">
+                        <div class="enter bg-slate-800 rounded-lg lg:max-w-1/5  shadow-xl/55 shadow-slate-800 m-5 lg:m-0">
                             <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
                                 <img src="<?= $depoimento["foto"] ?>" alt="foto de perfil de <?= $depoimento["nome"] ?>" class="w-10 h-10 rounded-full">
                                 <p class="self-center font-bold text-white"><?= $depoimento["nome"] ?></p>
@@ -35,22 +35,6 @@ include_once("./includes/data/data.php")
                             <p class="p-5 font-semibold font text-justify"><?= $depoimento["comentario"] ?></p>
                         </div>
                     <?php }?>
-                    <!-- <div class=" bg-slate-800 rounded-lg w-50 h-60">
-                        <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsumaaaa</div>
-                        <p class="p-2">zaza</p>
-                    </div>
-                    <div class=" bg-slate-800 rounded-lg w-50 h-60">
-                        <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-                        <p class="p-2">lorem ipsum</p>
-                    </div>
-                    <div class="bg-slate-800 rounded-lg w-50 h-60">
-                        <div class=" rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-                        <p class="p-2">zaza</p>
-                    </div>
-                    <div class="bg-slate-800 rounded-lg w-50 h-60">
-                        <div class="rounded-t-lg bg-gray-400 p-2 ">lorem ipsum</div>
-                        <p class="p-2">zaza</p>
-                    </div> -->
                 </div>
             </div>
         </section>
