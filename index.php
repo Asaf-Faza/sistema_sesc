@@ -135,6 +135,12 @@ Nikog Se Ne Boje"</p>
         </section>
         <section id="valores" class="p-10"  >
             <h3 class="font-bold text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)] text-center">Nossos valores</h3>
+            <div class="flex-col">
+                <div class="flex">
+                    <img src="./src/img/Curiosidades sobre nossa querida Portugal.png" alt="" class="w-1/2 h-auto p-10">
+                    <p class="text-justify p-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure vero nemo corrupti porro incidunt exercitationem magnam distinctio accusamus cum laudantium a velit quas eaque aspernatur corporis doloribus, voluptatibus minus!</p>
+                </div>
+            </div>
         </section>
     </main>
 <?php
