@@ -27,7 +27,7 @@ include_once("./includes/data/data.php")
             <div class="w-full h-60 text-white mt-7">
                 <div class="mb-3 flex justify-around">
                     <?php foreach ($depoimentos as $depoimento){?>
-                        <div class="enter bg-slate-800 rounded-lg max-w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
+                        <div class="enter bg-slate-800 rounded-lg w-1/5 min-h-52 shadow-xl/55 shadow-slate-800">
                             <div class="rounded-t-lg bg-gray-400 p-2 flex gap-3">
                                 <img src="<?= $depoimento["foto"] ?>" alt="foto de perfil de <?= $depoimento["nome"] ?>" class="w-10 h-10 rounded-full">
                                 <p class="self-center font-bold text-white"><?= $depoimento["nome"] ?></p>
