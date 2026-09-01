@@ -7,14 +7,17 @@
 <link rel="stylesheet" href="./src/output.css">
 <link rel="stylesheet" href="./src/custom.css">
 <title>Sistema SESC SENAC</title>
+
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header class="sticky top-0 z-50 w-full
-               bg-slate-900/95 backdrop-blur-lg
-               text-blue-50
-               border-b border-amber-400
-               shadow-[0_4px_20px_rgba(0,0,0,0.6)]">
+    <header class="sticky top-0 z-50 w-full bg-slate-900/95 backdrop-blur-lg text-blue-50 border-b border-amber-400 shadow-[0_4px_20px_rgba(0,0,0,0.6)]">
 
         <nav class="flex justify-between items-center p-4 text-blue-50">
             <div class="flex">
@@ -35,7 +38,7 @@
 
                 <a href="#cursos"
                     class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
-                    cursos
+                    formação
                 </a>
 
                 <a href="#about"

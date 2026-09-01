@@ -1,7 +1,5 @@
 <footer id="contatos"
-    class="relative overflow-hidden border-t-2 border-amber-400
-           bg-slate-900 text-slate-300
-           shadow-[0_-8px_25px_rgba(0,0,0,0.35)]">
+    class="relative overflow-hidden border-t-2 border-amber-400 bg-slate-900 text-slate-300 shadow-[0_-8px_25px_rgba(0,0,0,0.35)]">
 
     <!-- Detalhe decorativo -->
     <div class="absolute -top-20 left-1/2 h-40 w-40 -translate-x-1/2
@@ -16,8 +14,7 @@
             <!-- Empresa -->
             <div class="group">
                 <div class="mb-3 flex items-center gap-2">
-                    <span class="h-2 w-2 rounded-full bg-amber-400
-                                 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
+                    <span class="h-2 w-2 rounded-full bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
                     </span>
 
                     <h2 class="text-sm font-bold uppercase tracking-widest text-white">
@@ -38,8 +35,7 @@
             <!-- Contato -->
             <div>
                 <div class="mb-3 flex items-center gap-2">
-                    <span class="h-2 w-2 rounded-full bg-amber-400
-                                 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
+                    <span class="h-2 w-2 rounded-full bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
                     </span>
 
                     <h2 class="text-sm font-bold uppercase tracking-widest text-white">
@@ -61,8 +57,7 @@
             <!-- Endereço -->
             <div>
                 <div class="mb-3 flex items-center gap-2">
-                    <span class="h-2 w-2 rounded-full bg-amber-400
-                                 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
+                    <span class="h-2 w-2 rounded-full bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
                     </span>
 
                     <h2 class="text-sm font-bold uppercase tracking-widest text-white">
@@ -94,9 +89,7 @@
                 <span class="text-amber-400">Futuro que inspira.</span>
             </p>
 
-            <a href="#"
-               class="font-medium text-slate-400 transition-all duration-300
-                      hover:text-amber-400">
+            <a href="#" class="font-medium text-slate-400 transition-all duration-300 hover:text-amber-400">
                 Voltar ao topo ↑
             </a>
 
