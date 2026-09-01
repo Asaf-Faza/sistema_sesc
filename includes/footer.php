@@ -1,24 +1,106 @@
+<footer id="contatos"
+    class="relative overflow-hidden border-t-2 border-amber-400
+           bg-slate-900 text-slate-300
+           shadow-[0_-8px_25px_rgba(0,0,0,0.35)]">
 
-    <footer class="bg-slate-900 text-slate-300" id="contatos">
-        <div class="mx-auto grid max-w-5xl gap-4 px-4 py-4 md:grid-cols-3">
-            <div>
-                <h2 class="mb-1 text-sm font-semibold uppercase tracking-wide text-white">Empresa</h2>
-                <p class="text-xs">© 2026 Sesc Senac.</p>
+    <!-- Detalhe decorativo -->
+    <div class="absolute -top-20 left-1/2 h-40 w-40 -translate-x-1/2
+                rounded-full bg-amber-400/10 blur-3xl">
+    </div>
+
+    <div class="relative mx-auto max-w-6xl px-6 py-10">
+
+        <!-- Conteúdo principal -->
+        <div class="grid gap-8 md:grid-cols-3">
+
+            <!-- Empresa -->
+            <div class="group">
+                <div class="mb-3 flex items-center gap-2">
+                    <span class="h-2 w-2 rounded-full bg-amber-400
+                                 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
+                    </span>
+
+                    <h2 class="text-sm font-bold uppercase tracking-widest text-white">
+                        Empresa
+                    </h2>
+                </div>
+
+                <p class="text-sm leading-relaxed text-slate-400">
+                    Ensino Médio Integrado
+                    <span class="text-amber-400">ao Técnico SESC SENAC</span>.
+                </p>
+
+                <p class="mt-3 text-xs text-slate-500">
+                    © 2026 SESC SENAC. Todos os direitos reservados.
+                </p>
             </div>
- 
+
+            <!-- Contato -->
             <div>
-                <h2 class="mb-1 text-sm font-semibold uppercase tracking-wide text-white">Contato</h2>
-                <p class="text-xs">(11) 98765-4321</p>
-                <p class="text-xs">sescsenac@senac.br</p>
+                <div class="mb-3 flex items-center gap-2">
+                    <span class="h-2 w-2 rounded-full bg-amber-400
+                                 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
+                    </span>
+
+                    <h2 class="text-sm font-bold uppercase tracking-widest text-white">
+                        Contato
+                    </h2>
+                </div>
+
+                <div class="space-y-2 text-sm text-slate-400">
+                    <p class="transition-colors duration-300 hover:text-amber-400">
+                        (11) 98765-4321
+                    </p>
+
+                    <p class="transition-colors duration-300 hover:text-amber-400">
+                        sescsenac@senac.br
+                    </p>
+                </div>
             </div>
- 
+
+            <!-- Endereço -->
             <div>
-                <h2 class="mb-1 text-sm font-semibold uppercase tracking-wide text-white">Endereço</h2>
-                <p class="text-xs">Rua Doutor José Pinto Rebello Júnior</p>
-                <p class="text-xs">Matinhos - PR</p>
+                <div class="mb-3 flex items-center gap-2">
+                    <span class="h-2 w-2 rounded-full bg-amber-400
+                                 shadow-[0_0_10px_rgba(251,191,36,0.8)]">
+                    </span>
+
+                    <h2 class="text-sm font-bold uppercase tracking-widest text-white">
+                        Onde estamos
+                    </h2>
+                </div>
+
+                <p class="text-sm leading-relaxed text-slate-400">
+                    Rua Doutor José Pinto Rebello Júnior
+                </p>
+
+                <p class="mt-1 text-sm font-medium text-amber-400">
+                    Matinhos - PR
+                </p>
             </div>
+
         </div>
-    </footer>
-    <script src="./js/script.js"></script>
-</body>
-</html>
+
+        <!-- Linha inferior -->
+        <div class="my-8 h-px bg-gradient-to-r
+                    from-transparent via-slate-700 to-transparent">
+        </div>
+
+        <div class="flex flex-col items-center justify-between gap-3
+                    text-center text-xs text-slate-500 md:flex-row">
+
+            <p>
+                Educação que transforma. 
+                <span class="text-amber-400">Futuro que inspira.</span>
+            </p>
+
+            <a href="#"
+               class="font-medium text-slate-400 transition-all duration-300
+                      hover:text-amber-400">
+                Voltar ao topo ↑
+            </a>
+
+        </div>
+
+    </div>
+</footer>
