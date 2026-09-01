@@ -451,80 +451,256 @@ include_once("./includes/data/data.php")
 
     </section>
 
-    <section class="scroll-mt-28" id="about">
-        <div class="flex">
-            <div class="text flex-col w-1/2  px-10 py-20">
-                <h3 class="font-extrabold font-mono text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)] text-blue-900">Sobre Nós</h3>
-                <hr class="w-1/3 mask-r-from-60% border-blue-900 border-2">
-                <div class="flex h-full items-center">
-                    <p class="font-semibold">"Od Bihaca do Petrovca sela
-                        Do Petrovca sela
-                        Srpska Zemlja Napadnuta Cela
-                        Napadnuta Cela
+    <section id="about" class="scroll-mt-28 bg-slate-100 py-20">
 
-                        Karadzicu Vodi Srbe Svoje
-                        Vodi Srbe Svoje
-                        Nek Se Vidi Nikog Se Ne Boje
-                        Nikog Se Ne Boje
+    <div class="mx-auto flex max-w-7xl items-center gap-16 px-8 lg:px-12">
 
-                        Ustale Hrvatske Ustase
-                        Hrvatse Ustase
-                        Ne Dirajte U Ognjiste Nase
-                        Dirajte Ognjiste Nase
+        <!-- ESQUERDA -->
+        <div class="w-1/2">
 
-                        Karadzicu Vodi Srbe Svoje
-                        Vodi Srbe Svoje
-                        Nek Se Vidi Nikog Se Ne Boje
-                        Nikog Se Ne Boje
+            <p class="mb-3 text-sm font-bold uppercase tracking-[0.25em] text-amber-500">
+                Conheça nossa escola
+            </p>
 
-                        Iz Krajine Krenuli Su Vuci
-                        Krenuli Su Vuci
-                        Cuvajte Se Ustase I Turci
-                        Ustase I Turci
+            <h3 class="text-4xl font-extrabold text-slate-900 md:text-5xl">
+                Sobre <span class="text-amber-500">Nós</span>
+            </h3>
 
-                        Karadzicu Vodi Srbe Svoje
-                        Vodi Srbe Svoje
-                        Nek Se Vidi Nikog Se Ne Boje
-                        Nikog Se Ne Boje
+            <div class="mt-4 h-1 w-16 rounded-full bg-amber-400"></div>
 
-                        U Odbrani Svoga Srpskog Roda
-                        Svoga Srpskog Roda
-                        Borimo Se Draga Nam Sloboda
-                        Draga Nam Sloboda
 
-                        Karadzicu Vodi Srbe Svoje
-                        Vodi Srbe Svoje
-                        Nek Se Vidi Nikog Se Ne Boje
-                        Nikog Se Ne Boje
-                        Nek Se Vidi Nikog Se Ne Boje
-                        Nikog Se Ne Boje"</p>
-                </div>
+            <div class="mt-8 max-w-xl space-y-5">
+
+                <p class="text-justify font-medium leading-8 text-slate-600">
+                    O Ensino Médio Integrado ao Técnico SESC SENAC
+                    proporciona uma formação que une conhecimento,
+                    prática e preparação para o futuro.
+                </p>
+
+                <p class="text-justify font-medium leading-8 text-slate-500">
+                    Durante essa jornada, os estudantes têm contato com
+                    diferentes áreas do conhecimento, projetos, atividades
+                    práticas e experiências que complementam sua formação.
+                </p>
+
+                <p class="text-justify font-medium leading-8 text-slate-500">
+                    Nosso objetivo é criar um ambiente onde aprender,
+                    experimentar e desenvolver novas habilidades faça parte
+                    da experiência de cada estudante.
+                </p>
+
             </div>
-            <div class="flex w-1/2 h-auto p-5 m-5 relative">
-                <img src="./src/img/sesc-caioba-unidade-de-servico-01-1024x683.jpg" alt="" class="z-10 rounded-md drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)]" />
-                <div class="absolute bottom-0 right-0 bg-amber-500 w-11/12 h-11/12"></div>
+
+
+            <!-- DESTAQUES -->
+            <div class="mt-8 flex gap-3">
+
+                <span class="rounded-lg border border-slate-200
+                             bg-slate-50 px-4 py-2
+                             text-sm font-semibold text-slate-600
+                             transition-all duration-300
+                             hover:-translate-y-1
+                             hover:border-amber-300
+                             hover:shadow-md">
+                    Educação
+                </span>
+
+                <span class="rounded-lg border border-amber-200
+                             bg-amber-50 px-4 py-2
+                             text-sm font-semibold text-amber-600
+                             transition-all duration-300
+                             hover:-translate-y-1
+                             hover:shadow-md">
+                    Tecnologia
+                </span>
+
+                <span class="rounded-lg border border-slate-200
+                             bg-slate-50 px-4 py-2
+                             text-sm font-semibold text-slate-600
+                             transition-all duration-300
+                             hover:-translate-y-1
+                             hover:border-amber-300
+                             hover:shadow-md">
+                    Futuro
+                </span>
+
             </div>
+
         </div>
-    </section>
-    <section id="eventos" class="scroll-mt-28 p-10 bg-amber-600 mt-4 text-white rounded-t-2xl">
-        <h3 class="font-bold text-4xl drop-shadow-[5px_5px_3px_rgba(0,0,0,.3)] text-center mb-10">Eventos para os estudantes!</h3>
-        <div class="flex-col">
-            <div class="flex gap-10 mb-10">
-                <img src="./src/img/Curiosidades sobre nossa querida Portugal.png" alt="" class="w-1/3 h-auto drop-shadow-[-15px_15px_7px_rgba(0,0,0,.3)] rounded-tr-2xl rounded-bl-2xl">
-                <div class="w-2/3 flex-col text-justify p-10 bg-blue-500 rounded-3xl font-semibold drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)]">
-                    <h4 class="italic mb-5 font-extrabold text-2xl tracking-wider text-center w-full text-amber-400">PALESTRAS</h4>
-                    <p class="font-semibold flex items-center h-1/2 text-xl">Aqui, temos um espaço dedicado a receber palestras motivadoras e concientes sobre a jornada de nossos jovens em seus brilhantes futuros. Nosso espaço está exclusivamente reservado a boas conversas e para xingar a extrema direita. Amamos o Lula nosso prefeito</p>
-                </div>
+
+
+        <!-- DIREITA -->
+        <div class="relative flex w-1/2 justify-center">
+
+            <!-- Detalhe amarelo -->
+            <div class="absolute bottom-[-15px] right-[-15px]
+                        h-[85%] w-[85%]
+                        rounded-3xl bg-amber-400">
             </div>
-            <div class="flex gap-10 mb-10">
-                <div class="w-2/3 flex-col text-justify p-10 bg-blue-500 rounded-3xl font-semibold drop-shadow-[15px_15px_7px_rgba(0,0,0,.3)]">
-                    <h4 class="italic mb-5 font-extrabold text-xl tracking-wider text-center w-full">PALESTRAS</h4>
-                </div>
-                <img src="./src/img/Curiosidades sobre nossa querida Portugal.png" alt="" class="w-1/3 h-auto drop-shadow-[-15px_15px_7px_rgba(0,0,0,.3)] rounded-tl-2xl rounded-br-2xl">
+
+            <!-- Imagem -->
+            <div class="relative z-10 overflow-hidden rounded-3xl
+                        border border-slate-200
+                        bg-white
+                        shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+
+                <img
+                    src="./src/img/image copy.png"
+                    alt="Estudantes do SESC SENAC"
+                    class="w-full object-cover
+                           transition-transform duration-700
+                           hover:scale-105"
+                >
+
             </div>
+
         </div>
-    </section>
-    <div class="bg-linear-to-t from-white to-amber-600 font-bold text-2xl text-center p-10">
+
+    </div>
+
+</section>
+
+
+
+    <!-- EVENTOS -->
+<section id="eventos" class="scroll-mt-28 bg-slate-100 px-6 py-20">
+
+    <div class="mx-auto max-w-6xl">
+
+        <!-- TÍTULO -->
+        <div class="mb-14 text-center">
+
+            <p class="mb-2 text-sm font-bold uppercase tracking-[0.25em] text-amber-500">
+                Experiências
+            </p>
+
+            <h3 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+                Eventos para os estudantes
+            </h3>
+
+            <div class="mx-auto mt-4 h-1 w-16 rounded-full bg-amber-400"></div>
+
+            <p class="mx-auto mt-5 max-w-2xl text-slate-500">
+                Momentos especiais para aprender, compartilhar experiências
+                e aproveitar ainda mais a vida escolar.
+            </p>
+
+        </div>
+
+
+        <!-- EVENTO 1 -->
+        <article
+            class="group mb-10 flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+
+            <!-- IMAGEM -->
+            <div class="relative w-2/5 overflow-hidden">
+
+                <img
+                    src="./src/img/Curiosidades sobre nossa querida Portugal.png"
+                    alt="Palestras para estudantes"
+                    class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105"
+                >
+
+                <div class="absolute left-5 top-5 rounded-full
+                            bg-amber-400 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-slate-900">
+                    Evento
+                </div>
+
+            </div>
+
+
+            <!-- CONTEÚDO -->
+            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
+                    01 • Palestras
+                </span>
+
+                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                    Conhecimento que inspira
+                </h4>
+
+                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                <p class="mt-6 text-justify leading-7 text-slate-600">
+                    Um espaço dedicado a receber palestras e conversas
+                    que ajudam nossos estudantes a conhecer novas ideias,
+                    compartilhar experiências e pensar sobre seus futuros.
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- EVENTO 2 -->
+        <article
+            class="group flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+
+            <!-- CONTEÚDO -->
+            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
+                    02 • Atividades
+                </span>
+
+                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                    Aprender também é participar
+                </h4>
+
+                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                <p class="mt-6 text-justify leading-7 text-slate-600">
+                    Projetos e atividades pensados para estimular a
+                    criatividade, a colaboração e o desenvolvimento
+                    dos estudantes dentro e fora da sala de aula.
+                </p>
+
+            </div>
+
+
+            <!-- IMAGEM -->
+            <div class="relative w-2/5 overflow-hidden">
+
+                <img
+                    src="./src/img/Curiosidades sobre nossa querida Portugal.png"
+                    alt="Atividades para estudantes"
+                    class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105"
+                >
+
+                <div class="absolute right-5 top-5 rounded-full
+                            bg-slate-900/90 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-white">
+                    Atividade
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- TRANSIÇÃO PARA O RODAPÉ -->
+<div class="h-16 bg-gradient-to-b from-slate-100 to-white"></div>
+
 </main>
 <?php
 include_once("./includes/footer.php")
