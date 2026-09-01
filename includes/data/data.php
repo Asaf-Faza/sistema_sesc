@@ -21,7 +21,7 @@ $depoimentos = [
     [
         "id" => 1,
         "nome" => "Sandra Lima",
-        "foto" => "src/img/pexels-divinetechygirl-1181686.jpg",
+        "foto" => "src/img/image.png",
         "comentario" => "Adorei muito escravizar meu filho nessa instituição. Ele adquiriu depressão aguda e nunca mais quis conversar com ninguém com medo de falarem sobre PHP para ele de novo (de acordo com ele, isso é pior que vape) 10/10.",
     ],
     [
