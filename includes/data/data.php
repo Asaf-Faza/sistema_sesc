@@ -3,7 +3,7 @@ $banner = [
     [
         "id" => 1,
         "nome" => "praia",
-        "imagem" => "src/img/trazsolpralavadeiradoareaial.png",
+        "imagem" => "src/img/indice-1 (1).jpg",
     ],
     [
         "id" => 2,
