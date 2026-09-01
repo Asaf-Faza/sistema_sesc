@@ -17,3 +17,9 @@
     transform: translateY(30px);
   }
 }
+
+.stroke{
+  -webkit-text-stroke:rgb(from color r g b);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}

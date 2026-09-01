@@ -1,5 +1,5 @@
 
-    <footer class="bg-slate-900 text-slate-300">
+    <footer class="bg-slate-900 text-slate-300" id="contatos">
         <div class="mx-auto grid max-w-5xl gap-4 px-4 py-4 md:grid-cols-3">
             <div>
                 <h2 class="mb-1 text-sm font-semibold uppercase tracking-wide text-white">Empresa</h2>
