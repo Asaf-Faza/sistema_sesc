@@ -524,8 +524,20 @@ include_once("./includes/data/data.php")
     </div>
     <div class="flex h-96 max-w-6xl mx-auto justify-center">
         <div class="col">
-            <div class="bg-slate-900 w-1 h-full flex-col items-center flex rounded-full py-10">
+            <div class="bg-slate-900 w-1 h-full flex-col items-center justify-around flex rounded-full py-10">
                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                </div>
+                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                </div>
+                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                </div>
+                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                </div>
+                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
                     <div class="bg-amber-500 rounded-full h-3 w-3"></div>
                 </div>
             </div>

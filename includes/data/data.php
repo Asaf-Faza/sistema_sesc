@@ -3,7 +3,7 @@ $banner = [
     [
         "id" => 1,
         "nome" => "praia",
-        "imagem" => "src/img/indice-1 (1).jpg",
+        "imagem" => "src/img/indice.jpg",
     ],
     [
         "id" => 2,

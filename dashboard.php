@@ -8,13 +8,11 @@
 <body>
     <header></header>
     <main>
-        <section id="comentar">
-            <form class="" method="POST" action="./includes/process/salvarimagem.php" enctype="multipart/form-data">
-                <label for="foto">comente aqui</label>
-                <input type="file" name="foto" id="foto" accept="image/png, image/jpg">
-                <button type="submit">Upload</button>
-            </form>
-        </section>
+        <form action="./src/uploads/upload.php" method="post" enctype="multipart/form-data">
+            Select image to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value="Upload Image" name="submit">
+        </form>
     </main>
 </body>
 </html>
