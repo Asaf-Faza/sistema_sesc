@@ -60,11 +60,22 @@
 
             <!-- Botão -->
             <div class="flex text-center items-center">
-                <a href="#"
-                    class="group relative flex items-center justify-center overflow-hidden rounded-xl bg-amber-400 px-6 py-3 text-lg xl:text-xl font-bold text-slate-900 shadow-lg shadow-amber-400/20 border-2 border-amber-300 transition-all duration-300 hover:-translate-y-1  hover:bg-amber-300 hover:shadow-xl hover:shadow-amber-400/40 active:translate-y-0">
+                <a href="includes/cadastro.php"
+                    class="group mx-2 relative flex items-center justify-center overflow-hidden rounded-xl bg-amber-400 px-6 py-3 text-lg xl:text-xl font-bold text-slate-900 shadow-lg shadow-amber-400/20 border-2 border-amber-300 transition-all duration-300 hover:-translate-y-1  hover:bg-amber-300 hover:shadow-xl hover:shadow-amber-400/40 active:translate-y-0">
 
                     <span class="relative z-10 transition-transform duration-300 group-hover:scale-105">
                         Ingressar
+                    </span>
+
+                    <!-- Brilho passando pelo botão -->
+                    <span class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent transition-transform duration-700 group-hover:translate-x-full">
+                    </span>
+                </a>
+                <a href="includes/login.php"
+                    class="group mx-2 relative flex items-center justify-center overflow-hidden rounded-xl bg-amber-400 px-6 py-3 text-lg xl:text-xl font-bold text-slate-900 shadow-lg shadow-amber-400/20 border-2 border-amber-300 transition-all duration-300 hover:-translate-y-1  hover:bg-amber-300 hover:shadow-xl hover:shadow-amber-400/40 active:translate-y-0">
+
+                    <span class="relative z-10 transition-transform duration-300 group-hover:scale-105">
+                        Entrar
                     </span>
 
                     <!-- Brilho passando pelo botão -->

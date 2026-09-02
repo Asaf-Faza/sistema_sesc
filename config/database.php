@@ -1,7 +1,7 @@
 <?php
 
 $host="localhost";
-$dbName="landingpage";
+$dbName="banners";
 $userName="root";
 $password= "";
 
