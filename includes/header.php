@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<link>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--CSS do Site-->
-<link rel="stylesheet" href="./src/output.css">
-<link rel="stylesheet" href="./src/custom.css">
-<title>Sistema SESC SENAC</title>
-
-<!-- font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS do Site-->
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/custom.css">
+    <title>Sistema SESC SENAC</title>
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -45,16 +45,17 @@
                     class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                     sobre nós
                 </a>
-
+                
+                <a href="#valores"
+                    class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                    valores
+                </a>
+                
                 <a href="#eventos"
                     class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                     eventos
                 </a>
 
-                <a href="#valores"
-                    class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
-                    valores
-                </a>
             </div>
 
             <!-- Botão -->

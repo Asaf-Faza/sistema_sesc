@@ -7,23 +7,16 @@ include_once("./includes/data/data.php")
     <section id="home" class="scroll-mt-28 bg-slate-950">
 
         <!-- Carrossel -->
-        <div class="relative w-full overflow-hidden
-                shadow-[0_10px_35px_rgba(0,0,0,0.45)]">
-
+        <div class="relative w-full overflow-hidden">
             <div class="car relative overflow-hidden">
-
                 <!-- Imagens -->
                 <div class="img-wrap flex transition-transform duration-700 ease-in-out">
-
                     <?php foreach ($banner as $imagemBanner) { ?>
-
                         <img
                             src="<?= $imagemBanner["imagem"] ?>"
                             alt="<?= $imagemBanner["nome"] ?>"
                             class="h-auto w-screen shrink-0 object-cover">
-
                     <?php } ?>
-
                 </div>
 
 
@@ -155,7 +148,6 @@ include_once("./includes/data/data.php")
                             bg-slate-900
                             shadow-lg shadow-black/30
                             transition-all duration-300
-                            hover:-translate-y-2
                             hover:border-amber-400/60
                             hover:shadow-xl hover:shadow-amber-400/10">
 
@@ -183,13 +175,6 @@ include_once("./includes/data/data.php")
                                        shadow-md shadow-amber-400/20
                                        transition-transform duration-300
                                        group-hover:scale-110">
-
-                                <!-- Bolinha online -->
-                                <span class="absolute bottom-0 right-0
-                                         h-3 w-3 rounded-full
-                                         border-2 border-slate-800
-                                         bg-green-400">
-                                </span>
 
                             </div>
 
@@ -491,41 +476,6 @@ include_once("./includes/data/data.php")
 
             </div>
 
-
-            <!-- DESTAQUES -->
-            <div class="mt-8 flex gap-3">
-
-                <span class="rounded-lg border border-slate-200
-                             bg-slate-50 px-4 py-2
-                             text-sm font-semibold text-slate-600
-                             transition-all duration-300
-                             hover:-translate-y-1
-                             hover:border-amber-300
-                             hover:shadow-md">
-                    Educação
-                </span>
-
-                <span class="rounded-lg border border-amber-200
-                             bg-amber-50 px-4 py-2
-                             text-sm font-semibold text-amber-600
-                             transition-all duration-300
-                             hover:-translate-y-1
-                             hover:shadow-md">
-                    Tecnologia
-                </span>
-
-                <span class="rounded-lg border border-slate-200
-                             bg-slate-50 px-4 py-2
-                             text-sm font-semibold text-slate-600
-                             transition-all duration-300
-                             hover:-translate-y-1
-                             hover:border-amber-300
-                             hover:shadow-md">
-                    Futuro
-                </span>
-
-            </div>
-
         </div>
 
 
@@ -560,7 +510,31 @@ include_once("./includes/data/data.php")
 
 </section>
 
+<section id="valores" class="bg-slate-100 px-6 py-20">
+    <div class=" mx-auto max-w-6xl">
+        <div class="mb-14 text-end">
+            <p class="mb-2 text-md font-bold uppercase tracking-[0.25em] text-slate-900">
+                    Valores
+            </p>
+            <h3 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+                O que realmente <span class="text-amber-500">Importa</span>
+            </h3>
+        </div>
+        <div class=" justify-self-end mt-4 h-1 w-32 rounded-full bg-slate-900"></div>
+    </div>
+    <div class="flex h-96 max-w-6xl mx-auto justify-center">
+        <div class="col">
+            <div class="bg-slate-900 w-1 h-full flex-col items-center flex rounded-full py-10">
+                <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
 
+        </div>
+    </div>
+</section>
 
     <!-- EVENTOS -->
 <section id="eventos" class="scroll-mt-28 bg-slate-100 px-6 py-20">
@@ -600,7 +574,7 @@ include_once("./includes/data/data.php")
             <div class="relative w-2/5 overflow-hidden">
 
                 <img
-                    src="./src/img/Curiosidades sobre nossa querida Portugal.png"
+                    src="./src/img/palestra-auditorio-scaled.jpg"
                     alt="Palestras para estudantes"
                     class="h-full min-h-72 w-full object-cover
                            transition-transform duration-700
@@ -647,13 +621,14 @@ include_once("./includes/data/data.php")
                    bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
                    transition-all duration-300
                    hover:-translate-y-1
-                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
+                   mb-10">
 
             <!-- CONTEÚDO -->
             <div class="flex w-3/5 flex-col justify-center px-10 py-10">
 
                 <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
-                    02 • Atividades
+                    02 • Atividades Extracurriculares
                 </span>
 
                 <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
@@ -675,8 +650,8 @@ include_once("./includes/data/data.php")
             <div class="relative w-2/5 overflow-hidden">
 
                 <img
-                    src="./src/img/Curiosidades sobre nossa querida Portugal.png"
-                    alt="Atividades para estudantes"
+                    src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
+                    alt="Atividades extracurriculares"
                     class="h-full min-h-72 w-full object-cover
                            transition-transform duration-700
                            group-hover:scale-105"
@@ -686,8 +661,58 @@ include_once("./includes/data/data.php")
                             bg-slate-900/90 px-4 py-1.5
                             text-xs font-bold uppercase tracking-wider
                             text-white">
-                    Atividade
+                    Atividades
                 </div>
+
+            </div>
+
+        </article>
+
+        <article
+            class="group mb-10 flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+
+            <!-- IMAGEM -->
+            <div class="relative w-2/5 overflow-hidden">
+
+                <img
+                    src="./src/img/palestra-auditorio-scaled.jpg"
+                    alt="Palestras para estudantes"
+                    class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105"
+                >
+
+                <div class="absolute left-5 top-5 rounded-full
+                            bg-amber-400 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-slate-900">
+                    Evento
+                </div>
+
+            </div>
+
+
+            <!-- CONTEÚDO -->
+            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
+                    01 • Esportes
+                </span>
+
+                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                    Ação e convivência
+                </h4>
+
+                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                <p class="mt-6 text-justify leading-7 text-slate-600">
+                    Esportes de interclasse para integrar e socializar os estudantes, valorizando políticas de fair play.
+                    Essas atividades são propostas para desenvolver a competitividade e promover a interação entre unidades. 
+                </p>
 
             </div>
 
