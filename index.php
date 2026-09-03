@@ -595,7 +595,7 @@ include_once("./includes/data/data.php");
             </p>
 
             <h3 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
-                Eventos para os estudantes
+                Eventos e atividades para os estudantes
             </h3>
 
             <div class="mx-auto mt-4 h-1 w-16 rounded-full bg-amber-400"></div>
@@ -678,15 +678,13 @@ include_once("./includes/data/data.php");
                 </span>
 
                 <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
-                    Aprender também é participar
+                    Clube de leitura
                 </h4>
 
                 <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
 
                 <p class="mt-6 text-justify leading-7 text-slate-600">
-                    Projetos e atividades pensados para estimular a
-                    criatividade, a colaboração e o desenvolvimento
-                    dos estudantes dentro e fora da sala de aula.
+                    Um espaço para compartilhar histórias, ideias e diferentes olhares por meio da literatura. Participe dos encontros do Clube de Leitura, conheça novas obras, descubra autores e converse sobre livros em um ambiente acolhedor e aberto ao diálogo.
                 </p>
 
             </div>
@@ -746,23 +744,174 @@ include_once("./includes/data/data.php");
             <div class="flex w-3/5 flex-col justify-center px-10 py-10">
  
                 <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
-                    01 • Esportes
+                    03 • Feiras
                 </span>
  
                 <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
-                    Ação e convivência
+                    Feira do conhecimento
                 </h4>
  
                 <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
  
                 <p class="mt-6 text-justify leading-7 text-slate-600">
-                    Esportes de interclasse para integrar e socializar os estudantes, valorizando políticas de fair play.
-                    Essas atividades são propostas para desenvolver a competitividade e promover a interação entre unidades.
+                    Um encontro para explorar ideias, compartilhar descobertas e despertar a curiosidade. A Feira do Conhecimento reúne projetos, experiências e atividades que valorizam a criatividade, a ciência, a cultura e o aprendizado. 
                 </p>
  
             </div>
  
         </article>
+
+        <!-- EVENTO 2 -->
+        <article
+            class="group flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
+                   mb-10">
+
+            <!-- CONTEÚDO -->
+            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
+                    04 • Ativadades Extracurriculares
+                </span>
+
+                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                    Clube do sexo
+                </h4>
+
+                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                <p class="mt-6 text-justify leading-7 text-slate-600">
+                    Desenvolva projetos de pesquisa, da escolha do tema à formulação de hipóteses e busca por respostas, e participe de feiras de ciências e eventos acadêmicos, apresentando seus resultados para um público avaliador.
+                </p>
+
+            </div>
+
+
+            <!-- IMAGEM -->
+            <div class="relative w-2/5 overflow-hidden">
+
+                <img
+                    src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
+                    alt="Atividades extracurriculares"
+                    class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105"
+                >
+
+                <div class="absolute right-5 top-5 rounded-full
+                            bg-slate-900/90 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-white">
+                    Atividades
+                </div>
+
+            </div>
+
+        </article>
+
+        <article
+            class="group mb-10 flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+ 
+            <!-- IMAGEM -->
+            <div class="relative w-2/5 overflow-hidden">
+ 
+                <img
+                    src="./src/img/futebol.jpg"
+                    alt="Palestras para estudantes"
+                    class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105"
+                >
+ 
+                <div class="absolute left-5 top-5 rounded-full
+                            bg-amber-400 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-slate-900">
+                    Evento
+                </div>
+ 
+            </div>
+ 
+ 
+            <!-- CONTEÚDO -->
+            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+ 
+                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
+                    05 • Esportes
+                </span>
+ 
+                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                     Feira do Empreendedorismo e Cultural
+                </h4>
+ 
+                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+               <p class="mt-6 text-justify leading-7 text-slate-600">Um espaço que une inovação e diversidade: de um lado, projetos de empreendedorismo, do planejamento à apresentação de ideias e negócios; do outro, a celebração de tradições, costumes e manifestações artísticas de diferentes povos e regiões. Duas frentes, uma mesma oportunidade de protagonismo para os participantes.
+ </p>
+                     
+            </div>
+ 
+        </article>
+
+        <!-- EVENTO 2 -->
+        <article
+            class="group flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
+                   mb-10">
+
+            <!-- CONTEÚDO -->
+            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
+                    06 • Esportes
+                </span>
+
+                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                    Treinos e Intersesc
+                </h4>
+
+                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                <p class="mt-6 text-justify leading-7 text-slate-600">
+                    Prepare-se com treinos regulares nas modalidades esportivas oferecidas pela unidade e represente o Sesc/Senac no Intersesc, a competição que reúne as unidades em disputas esportivas. Uma oportunidade de desenvolver técnica, trabalho em equipe e espírito esportivo, com foco na evolução contínua dos participantes.
+                </p>
+
+            </div>
+
+
+            <!-- IMAGEM -->
+            <div class="relative w-2/5 overflow-hidden">
+
+                <img
+                    src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
+                    alt="Atividades extracurriculares"
+                    class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105"
+                >
+
+                <div class="absolute right-5 top-5 rounded-full
+                            bg-slate-900/90 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-white">
+                    Atividades
+                </div>
+
+            </div>
+
+        </article>
+
+        
 
     </div>
 
