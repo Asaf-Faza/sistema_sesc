@@ -1,6 +1,6 @@
 <?php
 include_once("./includes/header.php");
-include_once("./includes/data/data.php")
+include_once("./includes/data/data.php");
 ?>
 
 <main>
@@ -11,10 +11,10 @@ include_once("./includes/data/data.php")
             <div class="car relative overflow-hidden">
                 <!-- Imagens -->
                 <div class="img-wrap flex transition-transform duration-700 ease-in-out">
-                    <?php foreach ($banner as $imagemBanner) { ?>
+                    <?php foreach ($imagensBanner as $banner) { ?>
                         <img
-                            src="<?= $imagemBanner["imagem"] ?>"
-                            alt="<?= $imagemBanner["nome"] ?>"
+                            src="./src/uploads/<?= $banner["nome"] ?>"
+                            alt="<?= $banner["nome"] ?>"
                             class="h-auto w-screen shrink-0 object-cover">
                     <?php } ?>
                 </div>

@@ -1,16 +1,26 @@
 <?php 
-$banner = [
-    [
-        "id" => 1,
-        "nome" => "praia",
-        "imagem" => "src/img/indice.jpg",
-    ],
-    [
-        "id" => 2,
-        "nome" => "praia",
-        "imagem" => "src/img/trazsolpralavadeiradoareaial.png",
-    ],
-];
+$sql = $conexao->prepare("SELECT * FROM imagensenviadas");
+$sql->execute();
+$i = 0;
+foreach ($sql as $row) {
+    $imagens[$i] = [
+        "id" => $row['id'],
+        "nome" => $row['nome'],
+    ];
+    $i++;
+}
+
+$sql2 = $conexao->prepare("SELECT * FROM imagensnobanner");
+$sql2->execute();
+$j = 0;
+foreach ($sql2 as $row) {
+    $imagensBanner[$j] = [
+        "id" => $row['id'],
+        "nome" => $row['nome'],
+    ];
+    $j++;
+}
+
 $depoimentos = [
     [
         "id" => 1,

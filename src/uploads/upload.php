@@ -1,5 +1,7 @@
-    <link rel="stylesheet" href="../output.css">
+<link rel="stylesheet" href="../output.css">
 <?php
+session_start();
+require_once('../../config/database.php');
 $target_dir = "./";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
@@ -23,8 +25,11 @@ if (file_exists($target_file)) {
 }
 
 // Check file size
-if ($_FILES["fileToUpload"]["size"] > 500000) {
-  echo "<p class='font-semibold'>Desculpe, mas aceitamos apenas imagens com, no máximo, 5MB.</p><br/>";
+if ($_FILES["fileToUpload"]["size"] > 5 * 1024 * 1024) {
+  echo "<p class='font-semibold'>
+        Desculpe, aceitamos imagens com no máximo 5 MB.
+    </p><br>";
+
   $uploadOk = 0;
 }
 
@@ -42,9 +47,12 @@ if ($uploadOk == 0) {
 } else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo "<p class='font-semibold'>O arquivo ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " foi enviado com sucesso!</p><br/>";
-        header("Location: ../../index.php");
+        $sql = $conexao->prepare("INSERT INTO imagensenviadas (nome) VALUES (:nome_arquivo)");
+        $sql->bindParam(':nome_arquivo', $_FILES["fileToUpload"]["name"]);
+        $sql->execute();
+        header("Location: ../../files.php");
         // echo "File is an image - " . $check["mime"] . ".";
-        exit;
+        exit; 
     } else {
       echo "<p class='font-semibold'>Desculpe, ocorreu um erro inesperado e sua imagem não foi enviada</p><br/>";
     }

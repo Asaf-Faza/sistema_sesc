@@ -2,29 +2,34 @@
     session_start();
     include_once('../config/database.php');
 
-    if ($_SERVER['REQUEST_METHOD'] === 'POST'){
-        $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-        $senha = filter_input(INPUT_POST, 'senha', FILTER_SANITIZE_SPECIAL_CHARS);
+$erro = '';
 
-        if (!empty($email) || !empty($senha)){
-            $_SESSION['erro'] = "Preencha todos os campos";
-        }
-        $sql = $conexao->prepare("SELECT id, nome, email, senha FROM usuarios WHERE email = :email");
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $senha = $_POST['senha'] ?? '';
+
+    if (!$email || $senha === '') {
+        $erro = 'Preencha todos os campos.';
+    } else {
+        $sql = $conexao->prepare(
+            "SELECT id, nome, email, senha FROM usuarios WHERE email = :email"
+        );
         $sql->execute(['email' => $email]);
         $usuario = $sql->fetch();
 
-        if($usuario && password_verify($senha, $usuario['senha'])){
+        if ($usuario && password_verify($senha, $usuario['senha'])) {
             session_regenerate_id(true);
 
             $_SESSION['user_id'] = $usuario['id'];
             $_SESSION['user_name'] = $usuario['nome'];
 
-            header("Location: ../index.php");
+            header('Location: ../index.php');
             exit;
-        } else {
-            $_SESSION['erro'] = "Nome ou senha inválidos.";
         }
+
+        $erro = 'Nome ou senha inválidos.';
     }
+}
 ?>
 
 <!DOCTYPE html>
@@ -64,8 +69,8 @@
                     <span class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent transition-transform duration-700 group-hover:translate-x-full">
                     </span>
                 </button>
-                <?php if (isset($_SESSION['erro'])){?>
-                <p class="text-red-500 text-center w-full text-2xl"><?=$_SESSION['erro']?></p>
+                <?php if (isset($erro)){?>
+                <p class="text-red-500 text-center w-full text-2xl"><?=$erro?></p>
                 <?php }?>
             </form>
         </div>

@@ -1,3 +1,46 @@
+<?php
+session_start();
+require_once("../config/database.php");
+
+$erro = '';
+$sucesso = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $nome = trim($_POST['nome'] ?? '');
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $senha = $_POST['senha'] ?? '';
+
+    if ($nome === '' || $email === false || $email === null || $senha === '') {
+        $erro = 'Preencha todos os campos corretamente.';
+    } else {
+        $checkEmail = $conexao->prepare(
+            "SELECT id FROM usuarios WHERE email = :email"
+        );
+        $checkEmail->execute(['email' => $email]);
+
+        if ($checkEmail->fetch()) {
+            $erro = 'Esse email já foi registrado.';
+        } else {
+            try {
+                $stmt = $conexao->prepare(
+                    "INSERT INTO usuarios (nome, email, senha)
+                     VALUES (:nome, :email, :senha)"
+                );
+
+                $stmt->execute([
+                    'nome' => $nome,
+                    'email' => $email,
+                    'senha' => password_hash($senha, PASSWORD_DEFAULT)
+                ]);
+
+                $sucesso = 'Cadastro realizado com sucesso.';
+            } catch (PDOException $e) {
+                $erro = 'Um erro inesperado ocorreu.';
+            }
+        }
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -39,50 +82,21 @@
                     <span class="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent transition-transform duration-700 group-hover:translate-x-full">
                     </span>
                 </button>
-                <?php if (isset($_SESSION['erro'])){?>
-                <p class="text-red-500 text-center w-full text-2xl"><?=$_SESSION['erro']?></p>
-                <?php }?>
+                <?php if ($erro !== ''): ?>
+                    <p class="text-red-500 text-center w-full text-2xl">
+                        <?= htmlspecialchars($erro, ENT_QUOTES, 'UTF-8') ?>
+                    </p>
+                    <?php endif; ?>
+
+                <?php if ($sucesso !== ''): ?>
+                    <p class="text-green-400 text-center w-full text-2xl">
+                        <?= htmlspecialchars($sucesso, ENT_QUOTES, 'UTF-8') ?> <a href="./login.php" class="text-blue-500 hover:underline">Ir para o login</a>
+                    </p>
+                <?php endif; ?>
             </form>
         </div>
     </main>
 </body>
 </html>
 
-<?php
-    session_start();
-    require_once("../config/database.php");
 
-    if ($_SERVER['REQUEST_METHOD'] === 'POST'){
-        $nome = filter_input(INPUT_POST, 'nome', FILTER_SANITIZE_SPECIAL_CHARS);
-        $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-        $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
-
-        if (empty($nome) || empty($email) || empty($senha)) {
-            die("Preencha todos os campos");
-        }
-
-        $checkEmail = $conexao->prepare("SELECT id FROM usuarios WHERE email = :email");
-        $checkEmail->execute(['email' => $email]);
-
-        if ($checkEmail->fetch()) {
-            die("Esse email já foi registrado");
-        }
-
-        $sql = "INSERT INTO usuarios (nome, email, senha) VALUES (:nome, :email, :senha)";
-        $stmt = $conexao->prepare($sql);
-
-        try {
-            $stmt->execute([
-                'nome' => $nome,
-                'email' => $email,
-                'senha' => $senha
-            ]);
-        
-            echo "Registration successful! You can now <a href='login.php'>Login</a>.";
-            header("Location: login.php");
-            exit;
-        } catch (PDOException $e) {
-            die("Um erro inesperado ocorreu");
-            echo($e);
-        }
-    }

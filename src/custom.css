@@ -33,3 +33,14 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
 }
+file {
+  margin-top: 1rem;
+}
+
+file::file-selector-button {
+  font-weight: bold;
+  color: dodgerblue;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}

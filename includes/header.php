@@ -98,7 +98,7 @@ include_once('./config/database.php');
                     <div class="text-amber-400 font-semibold text-center w-1/3">
                         <p class="">Bem vindo, <?= $_SESSION['user_name'] ?>!</p>
                     </div>
-                    <a href="dashboard.php"
+                    <a href="files.php"
                         class="group mx-2 w-1/3 relative flex items-center justify-center overflow-hidden rounded-xl bg-amber-400 px-6 py-3 text-lg xl:text-xl font-bold text-slate-900 shadow-lg shadow-amber-400/20 border-2 border-amber-300 transition-all duration-300 hover:-translate-y-1  hover:bg-amber-300 hover:shadow-xl hover:shadow-amber-400/40 active:translate-y-0">
                         <span class="relative z-10 transition-transform duration-300 group-hover:scale-105">
                             dashboard
