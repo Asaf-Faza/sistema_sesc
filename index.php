@@ -1,6 +1,6 @@
 <?php
 include_once("./includes/header.php");
-include_once("./includes/data/data.php");
+
 ?>
 
 <main>
@@ -123,7 +123,7 @@ include_once("./includes/data/data.php");
                 </span>
 
                 <h2 class="mt-2 text-3xl font-extrabold text-white md:text-4xl">
-                    O que nossos alunos dizem
+                    O que nossos estudantes dizem
                 </h2>
 
                 <div class="mx-auto mt-4 h-1 w-20 rounded-full bg-amber-400

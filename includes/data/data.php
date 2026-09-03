@@ -26,19 +26,19 @@ $depoimentos = [
         "id" => 1,
         "nome" => "Bernadette Meira",
         "foto" => "src/img/pensemoqquiser.png",
-        "comentario" => "digite uma mensagem",
+        "comentario" => "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ],
     [
         "id" => 1,
         "nome" => "Sandra Lima",
         "foto" => "src/img/image.png",
-        "comentario" => "Adorei muito escravizar meu filho nessa instituição. Ele adquiriu depressão aguda e nunca mais quis conversar com ninguém com medo de falarem sobre PHP para ele de novo (de acordo com ele, isso é pior que vape) 10/10.",
+        "comentario" => "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ],
     [
         "id" => 1,
         "nome" => "Mair Bocuda",
         "foto" => "src/img/bocuda.png",
-        "comentario" => "Se botasse uma tenda viraria circo de tanto palhaço que tem dentro",
+        "comentario" => "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     ],
 ]
 ?>
