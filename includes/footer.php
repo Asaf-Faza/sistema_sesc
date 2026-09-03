@@ -1,12 +1,12 @@
 <footer id="contatos"
-    class="relative overflow-hidden border-t-2 border-amber-400 bg-slate-900 text-slate-300 shadow-[0_-8px_25px_rgba(0,0,0,0.35)]">
+    class="relative overflow-hidden border-t-2 border-amber-400 bg-slate-900 text-slate-300 shadow-[0_-8px_25px_rgba(0,0,0,0.35)] flex">
 
     <!-- Detalhe decorativo -->
     <div class="absolute -top-20 left-1/2 h-40 w-40 -translate-x-1/2
                 rounded-full bg-amber-400/10 blur-3xl">
     </div>
 
-    <div class="relative mx-auto max-w-6xl px-6 py-10">
+    <div class="relative mx-auto max-w-6xl px-6 py-10 w-2/3">
 
         <!-- Conteúdo principal -->
         <div class="grid gap-8 md:grid-cols-3">
@@ -95,6 +95,10 @@
 
         </div>
 
+    </div>
+
+    <div class="flex justify-center items-center w-1/3">
+        <img src="./src/img/imagem (1).png" alt="Logo fecomércio" class="w-1/2">
     </div>
 </footer>
 

@@ -542,7 +542,7 @@ include_once("./includes/data/data.php");
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="flex-col flex">
 
         </div>
     </div>
