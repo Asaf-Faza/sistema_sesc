@@ -22,17 +22,18 @@ include_once('./config/database.php');
 </head>
 
 <body>
-    <header class="sticky top-0 z-50 w-full bg-slate-900/95 backdrop-blur-lg text-blue-50 border-b border-amber-400 shadow-[0_4px_20px_rgba(0,0,0,0.6)]">
+    <header class="sticky top-0 z-50 w-full bg-slate-900 backdrop-blur-lg text-blue-50 border-b border-amber-400 shadow-[0_4px_20px_rgba(0,0,0,0.6)]">
 
         <nav class="flex items-center p-4 text-blue-50">
-            <div class="flex">
+            <img src="src/img/569310ae-59d3-49ba-9938-a2186d312bf0.png" alt="Logo ensimo médio integrado ao técnico SESC SENAC" class="h-20 object-contain bg-linear-to-r from-amber-400 to-slate-900 rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.6)] pe-30">
+            <!-- <div class="flex">
                 <div class="flex-col text-start relative select-none font-extrabold leading-2 align-middle items-center">
                     <p class="text-yellow-400 italic text-[23px] leading-0">ENSINO MÉDIO</p>
                     <p class="text-white text-4xl leading-12">INTEGRADO</p>
                     <p class="text-transparent stroke absolute top-3.5 text-[45px] opacity-20">INTEGRADO</p>
                     <p class="text-yellow-400 italic text-[16.5px] leading-0">AO TÉCNICO SESC SENAC</p>
                 </div>
-            </div>
+            </div> -->
             <div class="flex ms-20 w-full">
                 <!-- Menu -->
                 <div class="hidden lg:flex text-xl font-semibold text-center justify-around w-[80%]">
