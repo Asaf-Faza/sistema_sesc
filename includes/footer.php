@@ -103,6 +103,7 @@
 </footer>
 
 <script src="./js/script.js"></script>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
 
 </body>
 </html>
