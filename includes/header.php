@@ -1,7 +1,6 @@
 <?php 
 session_start();
 include_once('./config/database.php');
-include_once("./includes/data/data.php");
 ?>
 
 <!DOCTYPE html>
