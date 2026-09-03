@@ -522,29 +522,61 @@ include_once("./includes/data/data.php");
         </div>
         <div class=" justify-self-end mt-4 h-1 w-32 rounded-full bg-slate-900"></div>
     </div>
-    <div class="flex h-96 max-w-6xl mx-auto justify-center">
-        <div class="col">
-            <div class="bg-slate-900 w-1 h-full flex-col items-center justify-around flex rounded-full py-10">
-                <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+    <div class="flex max-w-6xl mx-auto justify-center h-275">
+        <div class="w-1/5 h-full flex justify-center ">
+            <div class=" w-1 h-full flex-col items-center justify-around flex rounded-full py-10 bg-linear-to-b from-slate-900/0 via-slate-900 to-slate-900/0">
+                <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
                 </div>
-                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                 <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
                 </div>
-                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                 <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
                 </div>
-                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                 <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
                 </div>
-                 <div class="bg-white rounded-full overflow-visible h-5 w-5 border-2 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-3 w-3"></div>
+                 <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
+                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
                 </div>
             </div>
         </div>
-        <div class="flex-col flex">
-            <div class="row">
-                <p>Valor 1</p>
+        <div class="flex-col items-center justify-around flex rounded-full py-10 w-4/5">
+            <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+                <div class="">
+                    <p class="text-2xl font-extrabold text-slate-900">Integração total dos estudantes:</p>
+                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
+                </div>
+                <p class="text-justify text-white font-semibold">Praticamos atividades que unem os estudantes, estimulando a cooperação e o trabalho em equipe. Visando sempre preparar nossos estudantes para o mercado de trabalho e para suas futuras interações.</p>
+            </div>
+            <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+                <div class="">
+                    <p class="text-2xl font-extrabold text-slate-900">Inclusão e acolhimento:</p>
+                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
+                </div>
+                <p class="text-justify text-white font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquid facilis numquam! Qui molestiae excepturi numquam vero sed blanditiis alias, eum officia odio, tempore omnis ipsum fugiat, voluptate neque. Voluptatem!</p>
+            </div>
+            <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+                <div class="">
+                    <p class="text-2xl font-extrabold text-slate-900">Respeito:</p>
+                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
+                </div>
+                <p class="text-justify text-white font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequatur vitae quasi illum rerum laboriosam, officiis nostrum dicta a quibusdam fugiat libero reiciendis expedita eos fuga praesentium eaque ratione error!</p>
+            </div>
+            <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+                <div class="">
+                    <p class="text-2xl font-extrabold text-slate-900">Inovação:</p>
+                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
+                </div>
+                <p class="text-justify text-white font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequatur vitae quasi illum rerum laboriosam, officiis nostrum dicta a quibusdam fugiat libero reiciendis expedita eos fuga praesentium eaque ratione error!</p>
+            </div>
+                <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+                <div class="">
+                    <p class="text-2xl font-extrabold text-slate-900">Compromisso com a educação:</p>
+                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
+                </div>
+                <p class="text-justify text-white font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequatur vitae quasi illum rerum laboriosam, officiis nostrum dicta a quibusdam fugiat libero reiciendis expedita eos fuga praesentium eaque ratione error!</p>
             </div>
         </div>
     </div>
@@ -688,48 +720,48 @@ include_once("./includes/data/data.php");
                    transition-all duration-300
                    hover:-translate-y-1
                    hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
-
+ 
             <!-- IMAGEM -->
             <div class="relative w-2/5 overflow-hidden">
-
+ 
                 <img
-                    src="./src/img/palestra-auditorio-scaled.jpg"
+                    src="./src/img/futebol.jpg"
                     alt="Palestras para estudantes"
                     class="h-full min-h-72 w-full object-cover
                            transition-transform duration-700
                            group-hover:scale-105"
                 >
-
+ 
                 <div class="absolute left-5 top-5 rounded-full
                             bg-amber-400 px-4 py-1.5
                             text-xs font-bold uppercase tracking-wider
                             text-slate-900">
                     Evento
                 </div>
-
+ 
             </div>
-
-
+ 
+ 
             <!-- CONTEÚDO -->
             <div class="flex w-3/5 flex-col justify-center px-10 py-10">
-
+ 
                 <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
                     01 • Esportes
                 </span>
-
+ 
                 <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
                     Ação e convivência
                 </h4>
-
+ 
                 <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
-
+ 
                 <p class="mt-6 text-justify leading-7 text-slate-600">
                     Esportes de interclasse para integrar e socializar os estudantes, valorizando políticas de fair play.
-                    Essas atividades são propostas para desenvolver a competitividade e promover a interação entre unidades. 
+                    Essas atividades são propostas para desenvolver a competitividade e promover a interação entre unidades.
                 </p>
-
+ 
             </div>
-
+ 
         </article>
 
     </div>

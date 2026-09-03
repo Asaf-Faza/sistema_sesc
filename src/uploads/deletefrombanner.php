@@ -16,11 +16,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['delete'])) {
     $arquivo = $stmt->fetchColumn();
 
     if ($arquivo) {
-        $caminho = __DIR__ . DIRECTORY_SEPARATOR . basename($arquivo);
-
-        if (is_file($caminho)) {
-            unlink($caminho);
-        }
 
         $stmt = $conexao->prepare(
             "DELETE FROM imagensnobanner WHERE id = ?"
