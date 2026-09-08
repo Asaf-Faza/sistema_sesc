@@ -438,488 +438,576 @@ include_once("./includes/data/data.php");
 
     <section id="about" class="scroll-mt-28 bg-slate-100 py-20">
 
-    <div class="mx-auto flex max-w-7xl items-center gap-16 px-8 lg:px-12">
+        <div class="mx-auto flex max-w-7xl items-center gap-16 px-8 lg:px-12">
 
-        <!-- ESQUERDA -->
-        <div class="w-1/2">
+            <!-- ESQUERDA -->
+            <div class="w-1/2">
 
-            <p class="mb-3 text-sm font-bold uppercase tracking-[0.25em] text-amber-500">
-                Conheça nossa escola
-            </p>
-
-            <h3 class="text-4xl font-extrabold text-slate-900 md:text-5xl">
-                Sobre <span class="text-amber-500">Nós</span>
-            </h3>
-
-            <div class="mt-4 h-1 w-16 rounded-full bg-amber-400"></div>
-
-
-            <div class="mt-8 max-w-xl space-y-5">
-
-                <p class="text-justify font-medium leading-8 text-slate-600">
-                    O Ensino Médio Integrado ao Técnico SESC SENAC
-                    proporciona uma formação que une conhecimento,
-                    prática e preparação para o futuro.
+                <p class="mb-3 text-sm font-bold uppercase tracking-[0.25em] text-amber-400">
+                    Conheça nossa escola
                 </p>
 
-                <p class="text-justify font-medium leading-8 text-slate-500">
-                    Durante essa jornada, os estudantes têm contato com
-                    diferentes áreas do conhecimento, projetos, atividades
-                    práticas e experiências que complementam sua formação.
-                </p>
+                <h3 class="text-4xl font-extrabold text-slate-900 md:text-5xl">
+                    Sobre <span class="text-amber-400">Nós</span>
+                </h3>
 
-                <p class="text-justify font-medium leading-8 text-slate-500">
-                    Nosso objetivo é criar um ambiente onde aprender,
-                    experimentar e desenvolver novas habilidades faça parte
-                    da experiência de cada estudante.
-                </p>
+                <div class="mt-4 h-1 w-16 rounded-full bg-amber-400"></div>
+
+
+                <div class="mt-8 max-w-xl space-y-5">
+
+                    <p class="text-justify font-medium leading-8 text-slate-600">
+                        O Ensino Médio Integrado ao Técnico SESC SENAC
+                        proporciona uma formação que une conhecimento,
+                        prática e preparação para o futuro.
+                    </p>
+
+                    <p class="text-justify font-medium leading-8 text-slate-500">
+                        Durante essa jornada, os estudantes têm contato com
+                        diferentes áreas do conhecimento, projetos, atividades
+                        práticas e experiências que complementam sua formação.
+                    </p>
+
+                    <p class="text-justify font-medium leading-8 text-slate-500">
+                        Nosso objetivo é criar um ambiente onde aprender,
+                        experimentar e desenvolver novas habilidades faça parte
+                        da experiência de cada estudante.
+                    </p>
+
+                </div>
 
             </div>
 
-        </div>
 
+            <!-- DIREITA -->
+            <div class="relative flex w-1/2 justify-center">
 
-        <!-- DIREITA -->
-        <div class="relative flex w-1/2 justify-center">
-
-            <!-- Detalhe amarelo -->
-            <div class="absolute bottom-[-15px] right-[-15px]
+                <!-- Detalhe amarelo -->
+                <div class="absolute bottom-[-15px] right-[-15px]
                         h-[85%] w-[85%]
                         rounded-3xl bg-amber-400">
-            </div>
+                </div>
 
-            <!-- Imagem -->
-            <div class="relative z-10 overflow-hidden rounded-3xl
+                <!-- Imagem -->
+                <div class="relative z-10 overflow-hidden rounded-3xl
                         border border-slate-200
                         bg-white
                         shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
 
-                <img
-                    src="./src/img/image copy.png"
-                    alt="Estudantes do SESC SENAC"
-                    class="w-full object-cover
+                    <img
+                        src="./src/img/image copy.png"
+                        alt="Estudantes do SESC SENAC"
+                        class="w-full object-cover
                            transition-transform duration-700
-                           hover:scale-105"
-                >
+                           hover:scale-105">
+
+                </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <section id="valores" class="bg-slate-100 px-6 py-20 md:py-24">
+        <div class="mx-auto max-w-6xl">
 
-<section id="valores" class="bg-slate-100 px-6 py-20">
-    <div class=" mx-auto max-w-6xl">
-        <div class="mb-14 text-end">
-            <p class="mb-2 text-md font-bold uppercase tracking-[0.25em] text-slate-900">
+            <!-- Cabeçalho -->
+            <div class="mb-16 text-end">
+                <p class="mb-3 text-sm font-bold uppercase tracking-[0.3em] text-slate-900">
                     Valores
-            </p>
-            <h3 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
-                O que realmente <span class="text-amber-500">Importa</span>
-            </h3>
-        </div>
-        <div class=" justify-self-end mt-4 h-1 w-32 rounded-full bg-slate-900"></div>
-    </div>
-    <div class="flex max-w-6xl mx-auto justify-center h-275">
-        <div class="w-1/5 h-full flex justify-center ">
-            <div class=" w-1 h-full flex-col items-center justify-around flex rounded-full py-10 bg-linear-to-b from-slate-900/0 via-slate-900 to-slate-900/0">
-                <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
+                </p>
+
+                <h3 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+                    O que realmente
+                    <span class="text-amber-400"> importa</span>
+                </h3>
+
+                <div class="ml-auto mt-5 h-1 w-24 rounded-full bg-slate-900"></div>
+            </div>
+
+            <!-- Timeline -->
+            <div class="relative mx-auto max-w-5xl">
+
+                <!-- Linha central -->
+                <div class="absolute left-5 top-0 h-full w-1 rounded-full bg-gradient-to-b from-transparent via-slate-900 to-transparent md:left-1/2 md:-translate-x-1/2"></div>
+
+                <!-- Item 1 -->
+                <div class="relative mb-10 flex items-start md:mb-14">
+
+                    <!-- Marcador -->
+                    <div class="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-amber-400 bg-white shadow-sm md:absolute md:left-1/2 md:-translate-x-1/2">
+                        <div class="h-4 w-4 rounded-full bg-amber-400"></div>
+                    </div>
+
+                    <!-- Card -->
+                    <div class="ml-6 w-full rounded-2xl bg-amber-400 p-6
+    shadow-[0_8px_25px_rgba(15,23,42,0.08)]
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:shadow-[0_12px_30px_rgba(245,158,11,0.30),0_0_0_2px_rgba(245,158,11,0.45)]
+    md:ml-0 md:mr-auto md:w-[44%]">
+                        <h4 class="text-xl font-extrabold text-slate-900 md:text-2xl">
+                            Integração total dos estudantes
+                        </h4>
+
+                        <div class="mt-3 h-1 w-12 rounded-full bg-slate-700"></div>
+
+                        <p class="mt-5 text-justify font-medium leading-relaxed text-white">
+                            Praticamos atividades que unem os estudantes, estimulando
+                            a cooperação e o trabalho em equipe. Visamos sempre
+                            preparar nossos estudantes para o mercado de trabalho
+                            e para suas futuras interações.
+                        </p>
+                    </div>
                 </div>
-                 <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
+
+                <!-- Item 2 -->
+                <div class="relative mb-10 flex items-start md:mb-14">
+
+                    <div class="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-amber-400 bg-white shadow-sm md:absolute md:left-1/2 md:-translate-x-1/2">
+                        <div class="h-4 w-4 rounded-full bg-amber-400"></div>
+                    </div>
+
+                    <div class="ml-6 w-full rounded-2xl bg-white p-6
+    shadow-[0_8px_25px_rgba(15,23,42,0.08)]
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:shadow-[0_12px_30px_rgba(245,158,11,0.20),0_0_0_2px_rgba(245,158,11,0.40)]
+    md:ml-auto md:w-[44%]">
+                        <h4 class="text-xl font-extrabold text-slate-900 md:text-2xl">
+                            Inclusão e acolhimento
+                        </h4>
+
+                        <div class="mt-3 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                        <p class="mt-5 text-justify font-medium leading-relaxed text-slate-600">
+                            Criamos um ambiente onde todos se sintam respeitados,
+                            acolhidos e parte da comunidade escolar, valorizando
+                            as diferenças e garantindo espaço para que cada
+                            estudante possa se desenvolver.
+                        </p>
+                    </div>
                 </div>
-                 <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
+
+                <!-- Item 3 -->
+                <div class="relative mb-10 flex items-start md:mb-14">
+
+                    <div class="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-amber-400 bg-white shadow-sm md:absolute md:left-1/2 md:-translate-x-1/2">
+                        <div class="h-4 w-4 rounded-full bg-amber-400"></div>
+                    </div>
+
+                    <div class="ml-6 w-full rounded-2xl bg-slate-900 p-6
+    shadow-[0_8px_25px_rgba(15,23,42,0.12)]
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:shadow-[0_12px_30px_rgba(15,23,42,0.30),0_0_0_2px_rgba(245,158,11,0.55)]
+    md:ml-0 md:mr-auto md:w-[44%]">
+                        <h4 class="text-xl font-extrabold text-white md:text-2xl">
+                            Respeito
+                        </h4>
+
+                        <div class="mt-3 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                        <p class="mt-5 text-justify font-medium leading-relaxed text-slate-300">
+                            Valorizamos o respeito como base para todas as nossas
+                            relações, incentivando o diálogo, a empatia e a
+                            convivência saudável entre estudantes, professores
+                            e toda a comunidade escolar.
+                        </p>
+                    </div>
                 </div>
-                 <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
+
+                <!-- Item 4 -->
+                <div class="relative mb-10 flex items-start md:mb-14">
+
+                    <div class="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-amber-400 bg-white shadow-sm md:absolute md:left-1/2 md:-translate-x-1/2">
+                        <div class="h-4 w-4 rounded-full bg-amber-400"></div>
+                    </div>
+
+                    <div class="ml-6 w-full rounded-2xl bg-white p-6
+    shadow-[0_8px_25px_rgba(15,23,42,0.08)]
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:shadow-[0_12px_30px_rgba(245,158,11,0.20),0_0_0_2px_rgba(245,158,11,0.40)]
+    md:ml-auto md:w-[44%]">
+                        <h4 class="text-xl font-extrabold text-slate-900 md:text-2xl">
+                            Inovação
+                        </h4>
+
+                        <div class="mt-3 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                        <p class="mt-5 text-justify font-medium leading-relaxed text-slate-600">
+                            Buscamos novas ideias, metodologias e experiências que
+                            contribuam para uma educação mais dinâmica, criativa
+                            e conectada às necessidades do mundo atual.
+                        </p>
+                    </div>
                 </div>
-                 <div class="bg-white rounded-full overflow-visible h-15 w-15 border-5 border-amber-500 flex justify-center items-center">
-                    <div class="bg-amber-500 rounded-full h-10 w-10"></div>
+
+                <!-- Item 5 -->
+                <div class="relative flex items-start">
+
+                    <div class="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full border-4 border-amber-400 bg-white shadow-sm md:absolute md:left-1/2 md:-translate-x-1/2">
+                        <div class="h-4 w-4 rounded-full bg-amber-400"></div>
+                    </div>
+
+                    <div class="ml-6 w-full rounded-2xl bg-amber-400 p-6
+    shadow-[0_8px_25px_rgba(15,23,42,0.08)]
+    transition-all duration-300
+    hover:-translate-y-1
+    hover:shadow-[0_12px_30px_rgba(245,158,11,0.30),0_0_0_2px_rgba(245,158,11,0.45)]
+    md:ml-0 md:mr-auto md:w-[44%]">
+                        <h4 class="text-xl font-extrabold text-slate-900 md:text-2xl">
+                            Compromisso com a educação
+                        </h4>
+
+                        <div class="mt-3 h-1 w-12 rounded-full bg-slate-700"></div>
+
+                        <p class="mt-5 text-justify font-medium leading-relaxed text-white">
+                            Temos o compromisso de oferecer uma educação de qualidade,
+                            incentivando o desenvolvimento acadêmico, profissional
+                            e humano dos nossos estudantes.
+                        </p>
+                    </div>
                 </div>
+
             </div>
         </div>
-        <div class="flex-col items-center justify-around flex rounded-full py-10 w-4/5">
-            <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
-                <div class="">
-                    <p class="text-2xl font-extrabold text-slate-900">Integração total dos estudantes:</p>
-                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
-                </div>
-                <p class="text-justify text-white font-semibold">Praticamos atividades que unem os estudantes, estimulando a cooperação e o trabalho em equipe. Visando sempre preparar nossos estudantes para o mercado de trabalho e para suas futuras interações.</p>
-            </div>
-            <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
-                <div class="">
-                    <p class="text-2xl font-extrabold text-slate-900">Inclusão e acolhimento:</p>
-                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
-                </div>
-                <p class="text-justify text-white font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquid facilis numquam! Qui molestiae excepturi numquam vero sed blanditiis alias, eum officia odio, tempore omnis ipsum fugiat, voluptate neque. Voluptatem!</p>
-            </div>
-            <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
-                <div class="">
-                    <p class="text-2xl font-extrabold text-slate-900">Respeito:</p>
-                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
-                </div>
-                <p class="text-justify text-white font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequatur vitae quasi illum rerum laboriosam, officiis nostrum dicta a quibusdam fugiat libero reiciendis expedita eos fuga praesentium eaque ratione error!</p>
-            </div>
-            <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
-                <div class="">
-                    <p class="text-2xl font-extrabold text-slate-900">Inovação:</p>
-                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
-                </div>
-                <p class="text-justify text-white font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequatur vitae quasi illum rerum laboriosam, officiis nostrum dicta a quibusdam fugiat libero reiciendis expedita eos fuga praesentium eaque ratione error!</p>
-            </div>
-                <div class=" border-b-4 border-slate-900 bg-amber-500 p-5 w-full flex flex-col gap-7 rounded-2xl shadow-[0_10px_30px_rgba(15,23,42,0.12)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
-                <div class="">
-                    <p class="text-2xl font-extrabold text-slate-900">Compromisso com a educação:</p>
-                    <div class="mt-4 h-1 w-16 rounded-full bg-slate-700"></div>
-                </div>
-                <p class="text-justify text-white font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque consequatur vitae quasi illum rerum laboriosam, officiis nostrum dicta a quibusdam fugiat libero reiciendis expedita eos fuga praesentium eaque ratione error!</p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
     <!-- EVENTOS -->
-<section id="eventos" class="scroll-mt-28 bg-slate-100 px-6 py-20">
+    <section id="eventos" class="scroll-mt-28 bg-slate-100 px-6 py-20">
 
-    <div class="mx-auto max-w-6xl">
+        <div class="mx-auto max-w-6xl">
 
-        <!-- TÍTULO -->
-        <div class="mb-14 text-center">
+            <!-- TÍTULO -->
+            <div class="mb-14 text-center">
 
-            <p class="mb-2 text-sm font-bold uppercase tracking-[0.25em] text-amber-500">
-                Experiências
-            </p>
+                <p class="mb-2 text-sm font-bold uppercase tracking-[0.25em] text-amber-400">
+                    Experiências
+                </p>
 
-            <h3 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
-                Eventos e atividades para os estudantes
-            </h3>
+                <h3 class="text-4xl font-extrabold tracking-tight text-slate-900 md:text-5xl">
+                    Eventos e atividades para os estudantes
+                </h3>
 
-            <div class="mx-auto mt-4 h-1 w-16 rounded-full bg-amber-400"></div>
+                <div class="mx-auto mt-4 h-1 w-16 rounded-full bg-amber-400"></div>
 
-            <p class="mx-auto mt-5 max-w-2xl text-slate-500">
-                Momentos especiais para aprender, compartilhar experiências
-                e aproveitar ainda mais a vida escolar.
-            </p>
+                <p class="mx-auto mt-5 max-w-2xl text-slate-500">
+                    Momentos especiais para aprender, compartilhar experiências
+                    e aproveitar ainda mais a vida escolar.
+                </p>
+
+            </div>
+
+
+            <!-- EVENTO 1 -->
+            <article
+                class="group mb-10 flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+
+                <!-- IMAGEM -->
+                <div class="relative w-2/5 overflow-hidden">
+
+                    <img
+                        src="./src/img/palestra-auditorio-scaled.jpg"
+                        alt="Palestras para estudantes"
+                        class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105">
+
+                    <div class="absolute left-5 top-5 rounded-full
+                            bg-amber-400 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-slate-900">
+                        Evento
+                    </div>
+
+                </div>
+
+
+                <!-- CONTEÚDO -->
+                <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                    <span class="text-sm font-bold uppercase tracking-widest text-amber-400">
+                        01 • Palestras
+                    </span>
+
+                    <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                        Conhecimento que inspira
+                    </h4>
+
+                    <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                    <p class="mt-6 text-justify leading-7 text-slate-600">
+                        Um espaço dedicado a receber palestras e conversas
+                        que ajudam nossos estudantes a conhecer novas ideias,
+                        compartilhar experiências e pensar sobre seus futuros.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- EVENTO 2 -->
+            <article
+                class="group flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
+                   mb-10">
+
+                <!-- CONTEÚDO -->
+                <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                    <span class="text-sm font-bold uppercase tracking-widest text-amber-400">
+                        02 • Atividades Extracurriculares
+                    </span>
+
+                    <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                        Clube de leitura
+                    </h4>
+
+                    <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                    <p class="mt-6 text-justify leading-7 text-slate-600">
+                        Um espaço para compartilhar histórias, ideias e diferentes olhares por meio da literatura. Participe dos encontros do Clube de Leitura, conheça novas obras, descubra autores e converse sobre livros em um ambiente acolhedor e aberto ao diálogo.
+                    </p>
+
+                </div>
+
+
+                <!-- IMAGEM -->
+                <div class="relative w-2/5 overflow-hidden">
+
+                    <img
+                        src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
+                        alt="Atividades extracurriculares"
+                        class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105">
+
+                    <div class="absolute right-5 top-5 rounded-full
+                            bg-slate-900/90 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-white">
+                        Atividades
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article
+                class="group mb-10 flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+
+                <!-- IMAGEM -->
+                <div class="relative w-2/5 overflow-hidden">
+
+                    <img
+                        src="./src/img/futebol.jpg"
+                        alt="Palestras para estudantes"
+                        class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105">
+
+                    <div class="absolute left-5 top-5 rounded-full
+                            bg-amber-400 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-slate-900">
+                        Evento
+                    </div>
+
+                </div>
+
+
+                <!-- CONTEÚDO -->
+                <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                    <span class="text-sm font-bold uppercase tracking-widest text-amber-400">
+                        03 • Feiras
+                    </span>
+
+                    <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                        Feira do conhecimento
+                    </h4>
+
+                    <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                    <p class="mt-6 text-justify leading-7 text-slate-600">
+                        Um encontro para explorar ideias, compartilhar descobertas e despertar a curiosidade. A Feira do Conhecimento reúne projetos, experiências e atividades que valorizam a criatividade, a ciência, a cultura e o aprendizado.
+                    </p>
+
+                </div>
+
+            </article>
+
+            <!-- EVENTO 2 -->
+            <article
+                class="group flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
+                   mb-10">
+
+                <!-- CONTEÚDO -->
+                <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                    <span class="text-sm font-bold uppercase tracking-widest text-amber-400">
+                        04 • Ativadades Extracurriculares
+                    </span>
+
+                    <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                        Clube de Ciências
+                    </h4>
+
+                    <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                    <p class="mt-6 text-justify leading-7 text-slate-600">
+                        Desenvolva projetos de pesquisa, da escolha do tema à formulação de hipóteses e busca por respostas, e participe de feiras de ciências e eventos acadêmicos, apresentando seus resultados para um público avaliador.
+                    </p>
+
+                </div>
+
+
+                <!-- IMAGEM -->
+                <div class="relative w-2/5 overflow-hidden">
+
+                    <img
+                        src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
+                        alt="Atividades extracurriculares"
+                        class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105">
+
+                    <div class="absolute right-5 top-5 rounded-full
+                            bg-slate-900/90 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-white">
+                        Atividades
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article
+                class="group mb-10 flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
+
+                <!-- IMAGEM -->
+                <div class="relative w-2/5 overflow-hidden">
+
+                    <img
+                        src="./src/img/futebol.jpg"
+                        alt="Palestras para estudantes"
+                        class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105">
+
+                    <div class="absolute left-5 top-5 rounded-full
+                            bg-amber-400 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-slate-900">
+                        Evento
+                    </div>
+
+                </div>
+
+
+                <!-- CONTEÚDO -->
+                <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                    <span class="text-sm font-bold uppercase tracking-widest text-amber-400">
+                        05 • Esportes
+                    </span>
+
+                    <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                        Feira do Empreendedorismo e Cultural
+                    </h4>
+
+                    <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                    <p class="mt-6 text-justify leading-7 text-slate-600">Um espaço que une inovação e diversidade: de um lado, projetos de empreendedorismo, do planejamento à apresentação de ideias e negócios; do outro, a celebração de tradições, costumes e manifestações artísticas de diferentes povos e regiões. Duas frentes, uma mesma oportunidade de protagonismo para os participantes.
+                    </p>
+
+                </div>
+
+            </article>
+
+            <!-- EVENTO 2 -->
+            <article
+                class="group flex overflow-hidden rounded-3xl
+                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
+                   transition-all duration-300
+                   hover:-translate-y-1
+                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
+                   mb-10">
+
+                <!-- CONTEÚDO -->
+                <div class="flex w-3/5 flex-col justify-center px-10 py-10">
+
+                    <span class="text-sm font-bold uppercase tracking-widest text-amber-400">
+                        06 • Esportes
+                    </span>
+
+                    <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
+                        Treinos e Intersesc
+                    </h4>
+
+                    <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
+
+                    <p class="mt-6 text-justify leading-7 text-slate-600">
+                        Prepare-se com treinos regulares nas modalidades esportivas oferecidas pela unidade e represente o Sesc/Senac no Intersesc, a competição que reúne as unidades em disputas esportivas. Uma oportunidade de desenvolver técnica, trabalho em equipe e espírito esportivo, com foco na evolução contínua dos participantes.
+                    </p>
+
+                </div>
+
+
+                <!-- IMAGEM -->
+                <div class="relative w-2/5 overflow-hidden">
+
+                    <img
+                        src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
+                        alt="Atividades extracurriculares"
+                        class="h-full min-h-72 w-full object-cover
+                           transition-transform duration-700
+                           group-hover:scale-105">
+
+                    <div class="absolute right-5 top-5 rounded-full
+                            bg-slate-900/90 px-4 py-1.5
+                            text-xs font-bold uppercase tracking-wider
+                            text-white">
+                        Atividades
+                    </div>
+
+                </div>
+
+            </article>
+
+
 
         </div>
 
-
-        <!-- EVENTO 1 -->
-        <article
-            class="group mb-10 flex overflow-hidden rounded-3xl
-                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
-                   transition-all duration-300
-                   hover:-translate-y-1
-                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
-
-            <!-- IMAGEM -->
-            <div class="relative w-2/5 overflow-hidden">
-
-                <img
-                    src="./src/img/palestra-auditorio-scaled.jpg"
-                    alt="Palestras para estudantes"
-                    class="h-full min-h-72 w-full object-cover
-                           transition-transform duration-700
-                           group-hover:scale-105"
-                >
-
-                <div class="absolute left-5 top-5 rounded-full
-                            bg-amber-400 px-4 py-1.5
-                            text-xs font-bold uppercase tracking-wider
-                            text-slate-900">
-                    Evento
-                </div>
-
-            </div>
+    </section>
 
 
-            <!-- CONTEÚDO -->
-            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
-
-                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
-                    01 • Palestras
-                </span>
-
-                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
-                    Conhecimento que inspira
-                </h4>
-
-                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
-
-                <p class="mt-6 text-justify leading-7 text-slate-600">
-                    Um espaço dedicado a receber palestras e conversas
-                    que ajudam nossos estudantes a conhecer novas ideias,
-                    compartilhar experiências e pensar sobre seus futuros.
-                </p>
-
-            </div>
-
-        </article>
-
-
-        <!-- EVENTO 2 -->
-        <article
-            class="group flex overflow-hidden rounded-3xl
-                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
-                   transition-all duration-300
-                   hover:-translate-y-1
-                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
-                   mb-10">
-
-            <!-- CONTEÚDO -->
-            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
-
-                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
-                    02 • Atividades Extracurriculares
-                </span>
-
-                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
-                    Clube de leitura
-                </h4>
-
-                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
-
-                <p class="mt-6 text-justify leading-7 text-slate-600">
-                    Um espaço para compartilhar histórias, ideias e diferentes olhares por meio da literatura. Participe dos encontros do Clube de Leitura, conheça novas obras, descubra autores e converse sobre livros em um ambiente acolhedor e aberto ao diálogo.
-                </p>
-
-            </div>
-
-
-            <!-- IMAGEM -->
-            <div class="relative w-2/5 overflow-hidden">
-
-                <img
-                    src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
-                    alt="Atividades extracurriculares"
-                    class="h-full min-h-72 w-full object-cover
-                           transition-transform duration-700
-                           group-hover:scale-105"
-                >
-
-                <div class="absolute right-5 top-5 rounded-full
-                            bg-slate-900/90 px-4 py-1.5
-                            text-xs font-bold uppercase tracking-wider
-                            text-white">
-                    Atividades
-                </div>
-
-            </div>
-
-        </article>
-
-        <article
-            class="group mb-10 flex overflow-hidden rounded-3xl
-                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
-                   transition-all duration-300
-                   hover:-translate-y-1
-                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
- 
-            <!-- IMAGEM -->
-            <div class="relative w-2/5 overflow-hidden">
- 
-                <img
-                    src="./src/img/futebol.jpg"
-                    alt="Palestras para estudantes"
-                    class="h-full min-h-72 w-full object-cover
-                           transition-transform duration-700
-                           group-hover:scale-105"
-                >
- 
-                <div class="absolute left-5 top-5 rounded-full
-                            bg-amber-400 px-4 py-1.5
-                            text-xs font-bold uppercase tracking-wider
-                            text-slate-900">
-                    Evento
-                </div>
- 
-            </div>
- 
- 
-            <!-- CONTEÚDO -->
-            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
- 
-                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
-                    03 • Feiras
-                </span>
- 
-                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
-                    Feira do conhecimento
-                </h4>
- 
-                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
- 
-                <p class="mt-6 text-justify leading-7 text-slate-600">
-                    Um encontro para explorar ideias, compartilhar descobertas e despertar a curiosidade. A Feira do Conhecimento reúne projetos, experiências e atividades que valorizam a criatividade, a ciência, a cultura e o aprendizado. 
-                </p>
- 
-            </div>
- 
-        </article>
-
-        <!-- EVENTO 2 -->
-        <article
-            class="group flex overflow-hidden rounded-3xl
-                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
-                   transition-all duration-300
-                   hover:-translate-y-1
-                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
-                   mb-10">
-
-            <!-- CONTEÚDO -->
-            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
-
-                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
-                    04 • Ativadades Extracurriculares
-                </span>
-
-                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
-                    Clube do sexo
-                </h4>
-
-                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
-
-                <p class="mt-6 text-justify leading-7 text-slate-600">
-                    Desenvolva projetos de pesquisa, da escolha do tema à formulação de hipóteses e busca por respostas, e participe de feiras de ciências e eventos acadêmicos, apresentando seus resultados para um público avaliador.
-                </p>
-
-            </div>
-
-
-            <!-- IMAGEM -->
-            <div class="relative w-2/5 overflow-hidden">
-
-                <img
-                    src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
-                    alt="Atividades extracurriculares"
-                    class="h-full min-h-72 w-full object-cover
-                           transition-transform duration-700
-                           group-hover:scale-105"
-                >
-
-                <div class="absolute right-5 top-5 rounded-full
-                            bg-slate-900/90 px-4 py-1.5
-                            text-xs font-bold uppercase tracking-wider
-                            text-white">
-                    Atividades
-                </div>
-
-            </div>
-
-        </article>
-
-        <article
-            class="group mb-10 flex overflow-hidden rounded-3xl
-                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
-                   transition-all duration-300
-                   hover:-translate-y-1
-                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]">
- 
-            <!-- IMAGEM -->
-            <div class="relative w-2/5 overflow-hidden">
- 
-                <img
-                    src="./src/img/futebol.jpg"
-                    alt="Palestras para estudantes"
-                    class="h-full min-h-72 w-full object-cover
-                           transition-transform duration-700
-                           group-hover:scale-105"
-                >
- 
-                <div class="absolute left-5 top-5 rounded-full
-                            bg-amber-400 px-4 py-1.5
-                            text-xs font-bold uppercase tracking-wider
-                            text-slate-900">
-                    Evento
-                </div>
- 
-            </div>
- 
- 
-            <!-- CONTEÚDO -->
-            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
- 
-                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
-                    05 • Esportes
-                </span>
- 
-                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
-                     Feira do Empreendedorismo e Cultural
-                </h4>
- 
-                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
-
-               <p class="mt-6 text-justify leading-7 text-slate-600">Um espaço que une inovação e diversidade: de um lado, projetos de empreendedorismo, do planejamento à apresentação de ideias e negócios; do outro, a celebração de tradições, costumes e manifestações artísticas de diferentes povos e regiões. Duas frentes, uma mesma oportunidade de protagonismo para os participantes.
- </p>
-                     
-            </div>
- 
-        </article>
-
-        <!-- EVENTO 2 -->
-        <article
-            class="group flex overflow-hidden rounded-3xl
-                   bg-white shadow-[0_10px_30px_rgba(15,23,42,0.12)]
-                   transition-all duration-300
-                   hover:-translate-y-1
-                   hover:shadow-[0_15px_35px_rgba(15,23,42,0.18)]
-                   mb-10">
-
-            <!-- CONTEÚDO -->
-            <div class="flex w-3/5 flex-col justify-center px-10 py-10">
-
-                <span class="text-sm font-bold uppercase tracking-widest text-amber-500">
-                    06 • Esportes
-                </span>
-
-                <h4 class="mt-2 text-3xl font-extrabold text-slate-900">
-                    Treinos e Intersesc
-                </h4>
-
-                <div class="mt-4 h-1 w-12 rounded-full bg-amber-400"></div>
-
-                <p class="mt-6 text-justify leading-7 text-slate-600">
-                    Prepare-se com treinos regulares nas modalidades esportivas oferecidas pela unidade e represente o Sesc/Senac no Intersesc, a competição que reúne as unidades em disputas esportivas. Uma oportunidade de desenvolver técnica, trabalho em equipe e espírito esportivo, com foco na evolução contínua dos participantes.
-                </p>
-
-            </div>
-
-
-            <!-- IMAGEM -->
-            <div class="relative w-2/5 overflow-hidden">
-
-                <img
-                    src="./src/img/o-que-sao-atividades-extracurriculares-exemplos-e-ideias.png"
-                    alt="Atividades extracurriculares"
-                    class="h-full min-h-72 w-full object-cover
-                           transition-transform duration-700
-                           group-hover:scale-105"
-                >
-
-                <div class="absolute right-5 top-5 rounded-full
-                            bg-slate-900/90 px-4 py-1.5
-                            text-xs font-bold uppercase tracking-wider
-                            text-white">
-                    Atividades
-                </div>
-
-            </div>
-
-        </article>
-
-        
-
-    </div>
-
-</section>
-
-
-<!-- TRANSIÇÃO PARA O RODAPÉ -->
-<div class="h-16 bg-gradient-to-b from-slate-100 to-white"></div>
+    <!-- TRANSIÇÃO PARA O RODAPÉ -->
+    <div class="h-16 bg-gradient-to-b from-slate-100 to-white"></div>
 
 </main>
 <?php

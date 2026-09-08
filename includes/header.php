@@ -36,7 +36,7 @@ include_once('./config/database.php');
             </div> -->
             <div class="flex ms-20 w-full">
                 <!-- Menu -->
-                <div class="hidden lg:flex text-xl font-semibold text-center justify-around w-[80%]">
+                <div class="hidden lg:flex text-xl font-semibold justify-between me-15 text-center items-center w-[80%]">
                     <a href="#depoimentos"
                         class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                         Depoimentos
