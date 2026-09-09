@@ -20,7 +20,7 @@ if(isset($_POST["submit"])) {
 
 // Check if file already exists
 if (file_exists($target_file)) {
-  echo "<p class='font-semibold'>Sua imagem já existe, nego. se fode aí.</p><br/>";
+  echo "<p class='font-semibold'>Sua imagem já existe. Por favor escolha outra.</p><br/>";
   $uploadOk = 0;
 }
 

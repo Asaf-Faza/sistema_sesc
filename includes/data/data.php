@@ -1,4 +1,8 @@
-<?php 
+<?php
+$imagens = [];
+$imagensBanner = [];
+$depoimentos = [];
+
 $sql = $conexao->prepare("SELECT * FROM imagensenviadas");
 $sql->execute();
 $i = 0;
@@ -21,24 +25,20 @@ foreach ($sql2 as $row) {
     $j++;
 }
 
-$depoimentos = [
-    [
-        "id" => 1,
-        "nome" => "Bernadette Meira",
-        "foto" => "src/img/pensemoqquiser.png",
-        "comentario" => "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ],
-    [
-        "id" => 1,
-        "nome" => "Sandra Lima",
-        "foto" => "src/img/image.png",
-        "comentario" => "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ],
-    [
-        "id" => 1,
-        "nome" => "Mair Bocuda",
-        "foto" => "src/img/bocuda.png",
-        "comentario" => "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    ],
-]
-?>
+$sql3 = $conexao->prepare(
+    "SELECT c.id, c.comentario, u.nome, u.img AS foto
+     FROM comentario c
+     LEFT JOIN usuarios u ON u.id = c.usuario_id
+     ORDER BY c.id DESC"
+);
+$sql3->execute();
+$k = 0;
+foreach ($sql3 as $row){
+    $depoimentos[$k] = [
+        "id" => $row['id'],
+        "comentario" => $row['comentario'],
+        "nome" => $row['nome'] ?? 'Usuário',
+        "foto" => $row['foto'] ?? ''
+    ];
+    $k++;
+};

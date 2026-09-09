@@ -168,7 +168,7 @@ include_once("./includes/data/data.php");
                             <div class="relative">
 
                                 <img
-                                    src="<?= $depoimento["foto"] ?>"
+                                    src="<?= "./src/uploads/" . htmlspecialchars($depoimento["foto"]) ?>"
                                     alt="foto de perfil de <?= $depoimento["nome"] ?>"
                                     class="h-12 w-12 rounded-full object-cover
                                        border-2 border-amber-400
@@ -212,6 +212,10 @@ include_once("./includes/data/data.php");
 
                 <?php } ?>
 
+            </div>
+            
+            <div class="mt-10">
+                <p class=" text-white text-sm">Também quer compartilhar sua experiência com o SESC SENAC? <a href="./comment.php" class="text-amber-500 hover:underline">Comente aqui!</a></p>
             </div>
 
         </div>

@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $erro = 'Preencha todos os campos.';
     } else {
         $sql = $conexao->prepare(
-            "SELECT id, nome, email, senha FROM usuarios WHERE email = :email"
+            "SELECT id, nome, email, senha, img FROM usuarios WHERE email = :email"
         );
         $sql->execute(['email' => $email]);
         $usuario = $sql->fetch();
@@ -22,6 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $_SESSION['user_id'] = $usuario['id'];
             $_SESSION['user_name'] = $usuario['nome'];
+            $_SESSION['user_pfp'] = $usuario['img'];
 
             header('Location: ../index.php');
             exit;
