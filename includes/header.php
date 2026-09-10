@@ -11,6 +11,9 @@ include_once('./config/database.php');
     <!--CSS do Site-->
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="./src/custom.css">
+
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
     <title>Sistema SESC SENAC</title>
     
     <!-- font -->
@@ -25,7 +28,42 @@ include_once('./config/database.php');
     <header class="sticky top-0 z-50 w-full bg-slate-900 backdrop-blur-lg text-blue-50 border-b border-amber-400 shadow-[0_4px_20px_rgba(0,0,0,0.6)]">
 
         <nav class="flex items-center p-4 text-blue-50">
-            <img src="src/img/569310ae-59d3-49ba-9938-a2186d312bf0.png" alt="Logo ensimo médio integrado ao técnico SESC SENAC" class="h-20 object-contain bg-linear-to-r from-amber-400 to-slate-900 rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.6)] pe-30">
+            
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn lg:hidden bg-amber-500 rounded-2xl me-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 pointer-events-none">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#depoimentos"
+                        class="relative p-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        Depoimentos
+                    </a>
+
+                    <a href="#cursos"
+                        class="relative p-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        Formação
+                    </a>
+
+                    <a href="#about"
+                        class="relative p-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        Sobre nós
+                    </a>
+
+                    <a href="#valores"
+                        class="relative p-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        Valores
+                    </a>
+
+                    <a href="#eventos"
+                        class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        Eventos
+                    </a>
+                </div>
+            </div>
+
+            <img src="src/img/569310ae-59d3-49ba-9938-a2186d312bf0.png" alt="Logo ensimo médio integrado ao técnico SESC SENAC" class="hidden md:flex md:h-20 object-contain bg-linear-to-r from-amber-400 to-slate-900 rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.6)] pe-30">
             <!-- <div class="flex">
                 <div class="flex-col text-start relative select-none font-extrabold leading-2 align-middle items-center">
                     <p class="text-yellow-400 italic text-[23px] leading-0">ENSINO MÉDIO</p>
@@ -34,26 +72,26 @@ include_once('./config/database.php');
                     <p class="text-yellow-400 italic text-[16.5px] leading-0">AO TÉCNICO SESC SENAC</p>
                 </div>
             </div> -->
-            <div class="flex ms-20 w-full">
+            <div class="flex md:ms-20">
                 <!-- Menu -->
                 <div class="hidden lg:flex text-xl font-semibold justify-between me-15 text-center items-center w-[80%]">
                     <a href="#depoimentos"
-                        class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        class="relative p-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                         Depoimentos
                     </a>
 
                     <a href="#cursos"
-                        class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        class="relative p-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                         Formação
                     </a>
 
                     <a href="#about"
-                        class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        class="relative p-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                         Sobre nós
                     </a>
 
                     <a href="#valores"
-                        class="relative py-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
+                        class="relative p-2 transition-all duration-300 hover:text-amber-400 after:absolute after:left-1/2 after:-bottom-1 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-amber-400 after:transition-all after:duration-300 hover:after:w-full">
                         Valores
                     </a>
 
@@ -96,11 +134,11 @@ include_once('./config/database.php');
 
                 <?php } else {?>
                 <div class="flex">
-                    <div class="text-amber-400 font-semibold text-center w-1/3">
-                        <p class="">Bem vindo, <?= $_SESSION['user_name'] ?>!</p>
+                    <div class="text-amber-400 font-semibold text-center me-3">
+                        <p class="text-justify">Bem vindo, <?= $_SESSION['user_name'] ?>!</p>
                     </div>
                     <a href="files.php"
-                        class="group mx-2 w-1/3 relative flex items-center justify-center overflow-hidden rounded-xl bg-amber-400 px-6 py-3 text-lg xl:text-xl font-bold text-slate-900 shadow-lg shadow-amber-400/20 border-2 border-amber-300 transition-all duration-300 hover:-translate-y-1  hover:bg-amber-300 hover:shadow-xl hover:shadow-amber-400/40 active:translate-y-0">
+                        class="group mx-2 relative flex items-center justify-center overflow-hidden rounded-xl bg-amber-400 px-6 py-3 text-lg xl:text-xl font-bold text-slate-900 shadow-lg shadow-amber-400/20 border-2 border-amber-300 transition-all duration-300 hover:-translate-y-1  hover:bg-amber-300 hover:shadow-xl hover:shadow-amber-400/40 active:translate-y-0">
                         <span class="relative z-10 transition-transform duration-300 group-hover:scale-105">
                             dashboard
                         </span>
@@ -109,7 +147,7 @@ include_once('./config/database.php');
                         </span>
                     </a>
                     <a href="includes/logout.php"
-                        class="group mx-2 w-1/3 relative flex items-center justify-center overflow-hidden rounded-xl bg-amber-400 px-6 py-3 text-lg xl:text-xl font-bold text-slate-900 shadow-lg shadow-amber-400/20 border-2 border-amber-300 transition-all duration-300 hover:-translate-y-1  hover:bg-amber-300 hover:shadow-xl hover:shadow-amber-400/40 active:translate-y-0">
+                        class="group mx-2 relative flex items-center justify-center overflow-hidden rounded-xl bg-amber-400 px-6 py-3 text-lg xl:text-xl font-bold text-slate-900 shadow-lg shadow-amber-400/20 border-2 border-amber-300 transition-all duration-300 hover:-translate-y-1  hover:bg-amber-300 hover:shadow-xl hover:shadow-amber-400/40 active:translate-y-0">
                         <span class="relative z-10 transition-transform duration-300 group-hover:scale-105">
                             Sair
                         </span>

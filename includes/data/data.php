@@ -42,3 +42,23 @@ foreach ($sql3 as $row){
     ];
     $k++;
 };
+
+$sql4 = $conexao->prepare(
+    "SELECT c.id, c.comentario, u.nome, u.img AS foto
+     FROM comentarios_aprovados c
+     LEFT JOIN usuarios u ON u.id = c.usuario_id
+     ORDER BY c.id DESC"
+);
+$sql4->execute();
+$l = 0;
+foreach ($sql4 as $row){
+    $depoimentosAprovados[$l] = [
+        "id" => $row['id'],
+        "comentario" => $row['comentario'],
+        "nome" => $row['nome'] ?? 'Usuário',
+        "foto" => $row['foto'] ?? ''
+    ];
+    $l++;
+};
+
+?>
