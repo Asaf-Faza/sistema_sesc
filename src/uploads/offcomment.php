@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['aprovar'])) {
 
     $stmt = $conexao->prepare(
         "UPDATE comentarios
-        SET aprovado = TRUE
+        SET aprovado = FALSE
         WHERE id = ?"
     );
     $stmt->execute([$id]);

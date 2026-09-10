@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST"){
     $usuario = $_SESSION['user_id'];
 
 
-    $sql = $conexao->prepare("INSERT INTO comentario (comentario, usuario_id) VALUES (:comentario, :usuario)");
+    $sql = $conexao->prepare("INSERT INTO comentarios (comentario, usuario_id) VALUES (:comentario, :usuario)");
     $sql->bindParam(':comentario', $comentario);
     $sql->bindParam(':usuario', $usuario);
     $sql->execute();

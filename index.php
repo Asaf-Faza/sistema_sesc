@@ -140,7 +140,7 @@ include_once("./includes/data/data.php");
 
             <!-- Cards -->
             <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-
+                <?php if (!empty($depoimentosAprovados)){?>
                 <?php foreach ($depoimentosAprovados as $depoimento) { ?>
 
                     <div class="group relative overflow-hidden rounded-2xl
@@ -210,7 +210,10 @@ include_once("./includes/data/data.php");
 
                     </div>
 
-                <?php } ?>
+                <?php }} else { ?>
+
+                <p class="text-red-500 text-center font-extrabold">Desculpe, ainda não há depoimentos</p>  
+                <?php }?>
 
             </div>
             

@@ -27,14 +27,14 @@ foreach ($sql2 as $row) {
 
 $sql3 = $conexao->prepare(
     "SELECT c.id, c.comentario, u.nome, u.img AS foto
-     FROM comentario c
-     LEFT JOIN usuarios u ON u.id = c.usuario_id
+     FROM comentarios c
+     LEFT JOIN usuarios u ON u.id = c.usuario_id WHERE aprovado = TRUE
      ORDER BY c.id DESC"
 );
 $sql3->execute();
 $k = 0;
 foreach ($sql3 as $row){
-    $depoimentos[$k] = [
+    $depoimentosAprovados[$k] = [
         "id" => $row['id'],
         "comentario" => $row['comentario'],
         "nome" => $row['nome'] ?? 'Usuário',
@@ -43,16 +43,16 @@ foreach ($sql3 as $row){
     $k++;
 };
 
-$sql4 = $conexao->prepare(
+$sql3 = $conexao->prepare(
     "SELECT c.id, c.comentario, u.nome, u.img AS foto
-     FROM comentarios_aprovados c
-     LEFT JOIN usuarios u ON u.id = c.usuario_id
+     FROM comentarios c
+     LEFT JOIN usuarios u ON u.id = c.usuario_id WHERE aprovado = FALSE
      ORDER BY c.id DESC"
 );
-$sql4->execute();
+$sql3->execute();
 $l = 0;
-foreach ($sql4 as $row){
-    $depoimentosAprovados[$l] = [
+foreach ($sql3 as $row){
+    $depoimentos[$l] = [
         "id" => $row['id'],
         "comentario" => $row['comentario'],
         "nome" => $row['nome'] ?? 'Usuário',
@@ -60,5 +60,4 @@ foreach ($sql4 as $row){
     ];
     $l++;
 };
-
 ?>
