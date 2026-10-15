@@ -89,6 +89,8 @@
                 <span class="text-amber-400">Futuro que inspira.</span>
             </p>
 
+            <p>É um moderador? <a href="./includes/login.php" class="text-amber-400 hover:text-amber-300 ms-3"> Entre aqui</a></p>
+
             <a href="#" class="font-medium text-slate-400 transition-all duration-300 hover:text-amber-400">
                 Voltar ao topo ↑
             </a>

@@ -3,7 +3,6 @@ session_start();
 require_once("config/database.php");
 ?>
 
-<?php if (isset($_SESSION['user_id'])){?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,7 +15,8 @@ require_once("config/database.php");
     <main class="h-screen bg-[url(../src/img/emfrentepraia.jpg)]">
         <div class="backdrop-blur-xs backdrop-grayscale-50 h-full w-full bg-none flex justify-center items-center">
             <form action="./src/uploads/postacomentario.php" method="post" enctype="multipart/form-data" class="bg-slate-700 flex-col rounded-2xl h-2/3 flex w-1/2 justify-around p-10 font-semibold text-2xl text-amber-100 drop-shadow-[15px_15px_7px_rgba(0,0,30,.7)]">
-                
+                seu nome: 
+                <input name='nome' id='nome' type="text" placeholder="Seu nome aqui" class="px-2  text-black border-3 rounded border-amber-400 h-12 bg-white drop-shadow-[5px_5px_7px_rgba(0,0,0,.7)]">
                 comente:
                 <input name='comentario' id='comentario' type="text" placeholder="Seu comentário aqui" class="px-2  text-black border-3 rounded border-amber-400 h-12 bg-white drop-shadow-[5px_5px_7px_rgba(0,0,0,.7)]">
 
@@ -37,7 +37,3 @@ require_once("config/database.php");
     </main>
 </body>
 </html>
-<?php } else {
-        header("location: ./includes/login.php");
-        exit;
-    }?>
